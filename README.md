@@ -1,54 +1,37 @@
-# Astro Starter Kit: Basics
+# Rafa Canosa Personal Portfolio
 
-```sh
-npm create astro@latest -- --template basics
-```
+![Website Screenshot](website_screenshot.png)
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+![Website Performance](/astro-portfolio-performance.png)
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Hy! My name is Rafa Canosa. A frontend developer.
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+Welcome to my personal portfolio website! This project serves as a showcase of my work, skills, and experiences. Here's a brief overview of what you'll find:
 
-## 🚀 Project Structure
+# Table of Contents
 
-Inside of your Astro project, you'll see the following folders and files:
+1. [Technologies](#technologies)
+2. [Language](#language)
+3. [My Profile](#my-profile)
+4. [Live](#live)
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+## Technologies
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+- **Astro:** This website is built using Astro, a modern static site generator for building faster websites.
+- **Tailwind CSS:** The design and styling of the website are powered by Tailwind CSS, a utility-first CSS framework.
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+## Language
 
-Any static assets, like images, can be placed in the `public/` directory.
+This website is available in both English and Spanish to cater to a wider audience.
 
-## 🧞 Commands
+---
 
-All commands are run from the root of the project, from a terminal:
+## My Profile
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+You can check out the codebase on my [GitHub](https://github.com/Rafacv23) repository.
 
-## 👀 Want to learn more?
+Also you can take a look to my [Linkedin Profile](https://www.linkedin.com/in/rafa-canosa-vallejo-6328a5194/).
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## Live
+
+You can visit my website. [Website url](https://rafa-canosa-portfolio.vercel.app/)!

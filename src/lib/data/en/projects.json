@@ -11,7 +11,7 @@
         "Great scalability and performance",
         "Search engine"
       ],
-      "img": "https://i.imgur.com/zLQWVcT.png",
+      "img": "/blocks-ui-img.avif",
       "mobile": true,
       "description": "Taberna Precursor is a videogame news website written in spanish. Was developed with the latest technologies in web development wich provides a great performance and escalability.",
       "live": "https://taberna-precursor.vercel.app/",
@@ -27,7 +27,7 @@
         "Available via NPM",
         "Landing page with documentation"
       ],
-      "img": "https://i.imgur.com/zLQWVcT.png",
+      "img": "/blocks-ui-img.avif",
       "mobile": true,
       "description": "BlocksUi is an open source component library made with React and CSS. It's available in NPM and has their own documentation page.",
       "live": "https://blocks-ui-docs.vercel.app/",
@@ -39,7 +39,7 @@
       "slug": "miaudle",
       "languages": ["React", "CSS"],
       "functionalities": ["Local storage saves", "Upgrades", "Restart option"],
-      "img": "https://i.imgur.com/OegpUOD.png",
+      "img": "/miaudle-img.avif",
       "mobile": true,
       "description": "Miaudle is an incremental and clicker game where you collect adorable cats. You can use the cats you collect to purchase various upgrades, which will increase your cat generation rate per second.",
       "live": "https://miaudle.vercel.app/",
@@ -55,7 +55,7 @@
         "High speed performance",
         "Good scalability"
       ],
-      "img": "https://i.imgur.com/a30ohMq.png",
+      "img": "/cd-bustarviejo-img.avif",
       "mobile": true,
       "description": "Landing page for the CD Bustarviejo, a local team of my town. It's build with Astro and has a form validating system. His performance it's 93.5 according to lighthouse analysis.",
       "live": "https://cd-bustarviejo-landing.vercel.app/"
@@ -71,7 +71,7 @@
         "Toggle between dark and light themes",
         "Stop/Start option"
       ],
-      "img": "https://i.imgur.com/9cpjyXD.png",
+      "img": "/pomodoro-img.avif",
       "description": "The Pomodoro Timer is a productivity tool that helps users manage their work time effectively. This React-based application allows users to break down work into intervals, typically 25 minutes in length, separated by short breaks. With a clean and intuitive user interface.",
       "live": "https://pomodoro-react-drab.vercel.app/",
       "github": "https://github.com/Rafacv23/Projects/tree/main/06-pomodoro-react"
@@ -87,7 +87,7 @@
         "Chronometer function with start/stop",
         "Timer fully customizable"
       ],
-      "img": "https://i.imgur.com/DZoysaV.png",
+      "img": "/reloj-img.avif",
       "description": "A simple web application built with React and CSS that serves as a clock, stopwatch, and timer. You can also create custom timers.",
       "live": "https://timer-app-taupe.vercel.app/",
       "github": "https://github.com/Rafacv23/timer-app"
@@ -104,7 +104,7 @@
         "Toggle option to switch between to currencies"
       ],
       "description": "This is a simple Currency Converter web application built with React and native CSS. It allows users to convert between different currencies using real-time exchange rates fetched from a third-party API.",
-      "img": "https://i.imgur.com/b75NlE9.png",
+      "img": "/currency-converter-img.avif",
       "live": "https://currency-converter-nu-eight.vercel.app/",
       "github": "https://github.com/Rafacv23/currency-converter"
     },
@@ -114,7 +114,7 @@
       "slug": "f1-app",
       "languages": ["React", "CSS"],
       "mobile": true,
-      "img": "https://i.imgur.com/3aVL8e5.png",
+      "img": "/f1-app-img.avif",
       "functionalities": [
         "Real-time data based on an external API",
         "Stadistics of every F1 season",
@@ -139,7 +139,7 @@
         "React router for navigation"
       ],
       "description": "This project is a quiz game developed in React using Vite and React Router. There are 20 questions in the game, and the player must choose the correct option from 4 possible choices for each question.",
-      "img": "https://i.imgur.com/kj6COpO.png",
+      "img": "/quizz-game-img.avif",
       "github": "https://github.com/Rafacv23/questions-game"
     },
     {
@@ -155,7 +155,7 @@
         "React router for navigation"
       ],
       "description": "The Supermarket Service app is a powerful tool designed to streamline the shopping experience. Leveraging a robust API built on Supabase, this application provides effortless access to a wide range of product data. Enabling users to find desired products with ease by allowing them to browse, search, and apply filters.",
-      "img": "https://i.imgur.com/BhoTsNk.png",
+      "img": "/supermarket-service-img.avif",
       "github": "https://github.com/Rafacv23/supermarket-app"
     }
   ]

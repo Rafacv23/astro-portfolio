@@ -1,8 +1,8 @@
 # Rafa Canosa Personal Portfolio
 
-![Website Screenshot](/portfolio-web-img.png)
+![Website Screenshot](https://i.imgur.com/0xV8mEe.png)
 
-![Website Performance](/astro-portfolio-performance.png)
+![Website Performance](https://i.imgur.com/rNR9K1Z.png)
 
 Hy! My name is Rafa Canosa. A frontend developer.
 

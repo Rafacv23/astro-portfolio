@@ -1,6 +1,6 @@
 # Rafa Canosa Personal Portfolio
 
-![Website Screenshot](website_screenshot.png)
+![Website Screenshot](/portfolio-web-img.png)
 
 ![Website Performance](/astro-portfolio-performance.png)
 

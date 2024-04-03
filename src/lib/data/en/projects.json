@@ -11,7 +11,7 @@
         "Great scalability and performance",
         "Search engine"
       ],
-      "img": "/blocks-ui-img.avif",
+      "img": "/taberna-precursor-img.avif",
       "mobile": true,
       "description": "Taberna Precursor is a videogame news website written in spanish. Was developed with the latest technologies in web development wich provides a great performance and escalability.",
       "live": "https://taberna-precursor.vercel.app/",

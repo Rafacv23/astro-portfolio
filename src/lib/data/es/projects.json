@@ -11,7 +11,7 @@
         "Gran escalabilidad y rendimiento",
         "Buscador integrado"
       ],
-      "img": "https://i.imgur.com/zLQWVcT.png",
+      "img": "/taberna-precursor-img.avif",
       "mobile": true,
       "description": "Taberna Precursor es una web de noticias sobre videojuegos en español. Cuenta con las últimas tecnologías en desarrollo web lo que le otorga un gran rendimiento y escalabilidad.",
       "live": "https://taberna-precursor.vercel.app/",

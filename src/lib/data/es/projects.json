@@ -27,7 +27,7 @@
         "Disponible en NPM",
         "Landing page con Documentación"
       ],
-      "img": "https://i.imgur.com/zLQWVcT.png",
+      "img": "/blocks-ui-img.avif",
       "mobile": true,
       "description": "BlocksUi es una librería de componentes de código abierto hecha con React y CSS. Está disponible en NPM y tiene su propia página de documentación.",
       "live": "https://blocks-ui-docs.vercel.app/",
@@ -43,7 +43,7 @@
         "Mejoras y sistema de progresión",
         "Opción de reiniciar el progreso"
       ],
-      "img": "https://i.imgur.com/OegpUOD.png",
+      "img": "/miaudle-img.avif",
       "mobile": true,
       "description": "Miaudle es un juego incremental y clicker donde tienes que recolectar adorables gatos. Puedes usar estos gatos para comprar diferentes mejoras, lo que aumentará tu generación de gatos por segundo.",
       "live": "https://miaudle.vercel.app/",
@@ -59,7 +59,7 @@
         "Optimizado y con un rendimiento excelente",
         "Buena escalabilidad"
       ],
-      "img": "https://i.imgur.com/a30ohMq.png",
+      "img": "/cd-bustarviejo-img.avif",
       "mobile": true,
       "description": "Landing page creada para el CD Bustarviewjo, un equipo local de mi ciudad. Creado en Astro y con validación de formularios a través de JS. Rendimiento de 93.5 según Google Lighthouse.",
       "live": "https://cd-bustarviejo-landing.vercel.app/"
@@ -75,7 +75,7 @@
         "Posibilidad de cambiar entre modo claro y oscuro",
         "Opció de parar y reiniciar el contador"
       ],
-      "img": "https://i.imgur.com/9cpjyXD.png",
+      "img": "/pomodoro-img.avif",
       "description": "Este Pomodoro es una herramienta de productividad que uso en mi día a día. Nos permite manejar de forma más eficiente como controlamos nuestro tiempo de trabajo. Hecho en React, nos permite realizar intervas de 25 minutos separados por descansos cortos. Todo con una interfaz intuitiva y limpia.",
       "live": "https://pomodoro-react-drab.vercel.app/",
       "github": "https://github.com/Rafacv23/Projects/tree/main/06-pomodoro-react"
@@ -91,7 +91,7 @@
         "Cronómetro con la función de parar y reiniciar",
         "Temporizador totalmente personalizable"
       ],
-      "img": "https://i.imgur.com/DZoysaV.png",
+      "img": "/reloj-img.avif",
       "description": "Aplicación creada con React y CSS que nos permite acceder a un reloj, un cronómetro y un temporizador personalizado.",
       "live": "https://timer-app-taupe.vercel.app/",
       "github": "https://github.com/Rafacv23/timer-app"
@@ -108,7 +108,7 @@
         "Opción de toggle para cambiar entre dos divisas"
       ],
       "description": "Aplicación para conversión de divisas creada con React y CSS nativo. Permite convertir diferentes cantidades entre 14 divisas diferentes con datos actualizados en tiempo real.",
-      "img": "https://i.imgur.com/b75NlE9.png",
+      "img": "/currency-converter-img.avif",
       "live": "https://currency-converter-nu-eight.vercel.app/",
       "github": "https://github.com/Rafacv23/currency-converter"
     },
@@ -118,7 +118,7 @@
       "slug": "f1-app",
       "languages": ["React", "CSS"],
       "mobile": true,
-      "img": "https://i.imgur.com/3aVL8e5.png",
+      "img": "/f1-app-img.avif",
       "functionalities": [
         "API Datos reales y actualizados en tiempo real",
         "Estadísticas de todas las temporadas de Fórmula 1",
@@ -143,7 +143,7 @@
         "Navegación con react router"
       ],
       "description": "Este proyecto es un juego de preguntas desarrollado con React y Vite. El juego son 20 preguntas que van escalando de dificultad y tenemos un intento para completarlo.",
-      "img": "https://i.imgur.com/kj6COpO.png",
+      "img": "/quizz-game-img.avif",
       "github": "https://github.com/Rafacv23/questions-game"
     },
     {
@@ -159,7 +159,7 @@
         "Navegación con react router"
       ],
       "description": "Poderosa aplicación diseñada para optimizar la compra de productos en línea. Motor de búsqueda integrado para buscar en tiempo real y filtros para las diferentes categorías de productos. Backend hecho en Supabase.",
-      "img": "https://i.imgur.com/BhoTsNk.png",
+      "img": "/supermarket-service-img.avif",
       "github": "https://github.com/Rafacv23/supermarket-app"
     }
   ]

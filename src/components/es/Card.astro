@@ -3,7 +3,7 @@ const {project} = Astro.props
 import { Image } from "astro:assets";
 ---
 
-<article class="card card-image-cover max-w-2xl hover:transition hover:shadow-teal-300 hover:shadow-lg shadow-sm shadow-slate-700">
+<li class="card card-image-cover max-w-2xl hover:transition hover:shadow-teal-300 hover:shadow-lg shadow-sm shadow-slate-700">
 	<a href=`/${project.slug}` title={project.name}>
 		<Image width="800" height="500" loading="lazy" src={project.img} alt={`${project.name}-img`} />
 	</a>
@@ -18,4 +18,4 @@ import { Image } from "astro:assets";
 			<a class="btn bg-teal-300 text-black hover:bg-teal-200"  title={project.name} href=`/${project.slug}`>Saber más</a>
 		</div>
 	</div>
-</article>
+</li>

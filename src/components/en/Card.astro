@@ -1,0 +1,21 @@
+---
+const {project} = Astro.props
+import { Image } from "astro:assets";
+---
+
+<article class="card card-image-cover max-w-2xl hover:transition hover:shadow-teal-300 hover:shadow-lg shadow-sm shadow-slate-700">
+	<a href=`/en/${project.slug}` title={project.name}>
+		<Image width="800" height="500" loading="lazy" src={project.img} alt={`${project.name}-img`} />
+	</a>
+	<div class="card-body">
+		<a href=`/en/${project.slug}` title={project.name}  class="card-header hover:text-teal-300 hover:transition cursor-pointer text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-white to-teal-300">{project.name}</a>
+		<ul class="flex gap-4">
+			{project.languages.map((lang) => (
+				<li class=" text-slate-300 text-base" id={`${project.name}-${lang}`}>{lang}</li>
+			))}
+		</ul>
+		<div class="card-footer">
+			<a class="btn bg-teal-300 text-black hover:bg-teal-200"  title={project.name} href=`/en/${project.slug}`>Read more</a>
+		</div>
+	</div>
+</article>

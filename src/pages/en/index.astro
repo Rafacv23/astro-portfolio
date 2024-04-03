@@ -1,0 +1,16 @@
+---
+import Card from '../../components/en/Card.astro'
+import CardSkeleton from '../../components/loaders/CardSkeleton.astro'
+import Layout from '../../layouts/en/Layout.astro'
+import projectsData from '../../lib/data/en/projects.json' 
+---
+
+<Layout title="Rafa Canosa | Works" description='Rafa Canosa portfolio. Front-end web developer.' canonical='https://rafa-canosa-portfolio.vercel.app/en'>
+    <main class="flex flex-col items-center justify-center mb-12">
+        <ul class="flex flex-col gap-8">
+            {projectsData ? projectsData.projects.map((project) => (
+                <Card project={project}/>
+            )) : <CardSkeleton/>}
+        </ul>
+    </main>
+</Layout>

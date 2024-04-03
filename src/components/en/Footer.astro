@@ -1,0 +1,70 @@
+---
+import projectsData from '../../lib/data/en/projects.json' 
+---
+
+<footer class="mt-8" >
+    <nav class="menu p-8 bg-backgroundSecondary rounded-md md:flex md:flex-row md:items-start md:justify-center">
+        <section class="menu-section">
+            <span class="menu-title">General</span>
+            <ul class="menu-items">
+                <li>
+                    <a class="menu-item" href="/en" title="Home" tabindex="0" role="button">Home</a>
+                    <input type="checkbox" id="menu-1" class="menu-toggle" />
+                    <label class="menu-item justify-between" for="menu-1">
+                        <span>Works</span>
+                        <span class="menu-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="w-4 h-4 stroke-content3">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                            </svg>
+                        </span>
+                    </label>
+                    <div class="menu-item-collapse">
+                        <div class="min-h-0">
+                            <ul>
+                                {projectsData.projects.map((project) => (
+                                    <a class=" menu-item ml-6" href={`/en/${project.slug}`} title={project.name}>{project.name}</a>
+                                ))}
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a class="menu-item" href="/en/info" title="Sobre mí" tabindex="0" role="button">About me</a>
+                </li>
+                <li class="menu-item">
+                    <a href="/" title="Change to Spanish version">
+                        Change to Spanish version
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="/sitemap-0.xml" title="Sitemap">
+                        Sitemap
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <div class="divider my-0"></div>
+        <section class="menu-section">
+            <span class="menu-title">Contact</span>
+            <ul class="menu-items">
+                <li>
+                    <a class="menu-item" href="https://www.linkedin.com/in/rafa-canosa-vallejo-6328a5194/" target="_blank" title="Linkedin" tabindex="0" role="button">Linkedin</a>
+                </li>
+                <li>
+                    <a class="menu-item" href="https://github.com/Rafacv23" title="Github" tabindex="0" role="button">Github</a>
+                </li>
+                <li class="menu-item">
+                    <a href="mailto:rafacv23@gmail.com" title="Send email to Rafacv23@gmail.com">
+                        Rafacv23@gmail.com
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </nav>
+</footer>
+
+<style>
+    footer{
+        background-color: #121214;
+		background-image: linear-gradient(to top, black, #101011);
+    }
+</style>

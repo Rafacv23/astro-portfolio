@@ -1,0 +1,162 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Taberna Precursor",
+      "slug": "taberna-precursor",
+      "languages": ["Astro", "React", "CSS", "Tailwind"],
+      "functionalities": [
+        "News website in spanish",
+        "SEO optimised",
+        "Great scalability and performance",
+        "Search engine"
+      ],
+      "img": "https://i.imgur.com/zLQWVcT.png",
+      "mobile": true,
+      "description": "Taberna Precursor is a videogame news website written in spanish. Was developed with the latest technologies in web development wich provides a great performance and escalability.",
+      "live": "https://taberna-precursor.vercel.app/",
+      "github": "https://github.com/Rafacv23/news-app"
+    },
+    {
+      "id": 2,
+      "name": "BlocksUi",
+      "slug": "blocks-ui",
+      "languages": ["React", "CSS", "Docusaurus", "Storybook"],
+      "functionalities": [
+        "Open source component library",
+        "Available via NPM",
+        "Landing page with documentation"
+      ],
+      "img": "https://i.imgur.com/zLQWVcT.png",
+      "mobile": true,
+      "description": "BlocksUi is an open source component library made with React and CSS. It's available in NPM and has their own documentation page.",
+      "live": "https://blocks-ui-docs.vercel.app/",
+      "github": "https://github.com/Rafacv23/blocks-ui"
+    },
+    {
+      "id": 3,
+      "name": "Miaudle | Idle Game",
+      "slug": "miaudle",
+      "languages": ["React", "CSS"],
+      "functionalities": ["Local storage saves", "Upgrades", "Restart option"],
+      "img": "https://i.imgur.com/OegpUOD.png",
+      "mobile": true,
+      "description": "Miaudle is an incremental and clicker game where you collect adorable cats. You can use the cats you collect to purchase various upgrades, which will increase your cat generation rate per second.",
+      "live": "https://miaudle.vercel.app/",
+      "github": "https://github.com/Rafacv23/idle-game"
+    },
+    {
+      "id": 4,
+      "name": "CD Bustarviejo Landing",
+      "slug": "cd-bustarviejo",
+      "languages": ["Astro", "Tailwind"],
+      "functionalities": [
+        "Form validation with JS",
+        "High speed performance",
+        "Good scalability"
+      ],
+      "img": "https://i.imgur.com/a30ohMq.png",
+      "mobile": true,
+      "description": "Landing page for the CD Bustarviejo, a local team of my town. It's build with Astro and has a form validating system. His performance it's 93.5 according to lighthouse analysis.",
+      "live": "https://cd-bustarviejo-landing.vercel.app/"
+    },
+    {
+      "id": 5,
+      "name": "Pomodoro",
+      "slug": "pomodoro",
+      "languages": ["React", "CSS"],
+      "mobile": true,
+      "functionalities": [
+        "25 Minutes timers",
+        "Toggle between dark and light themes",
+        "Stop/Start option"
+      ],
+      "img": "https://i.imgur.com/9cpjyXD.png",
+      "description": "The Pomodoro Timer is a productivity tool that helps users manage their work time effectively. This React-based application allows users to break down work into intervals, typically 25 minutes in length, separated by short breaks. With a clean and intuitive user interface.",
+      "live": "https://pomodoro-react-drab.vercel.app/",
+      "github": "https://github.com/Rafacv23/Projects/tree/main/06-pomodoro-react"
+    },
+    {
+      "id": 6,
+      "name": "Timer",
+      "slug": "timer",
+      "languages": ["React", "CSS"],
+      "mobile": true,
+      "functionalities": [
+        "Real-time clock based on your location and time zone",
+        "Chronometer function with start/stop",
+        "Timer fully customizable"
+      ],
+      "img": "https://i.imgur.com/DZoysaV.png",
+      "description": "A simple web application built with React and CSS that serves as a clock, stopwatch, and timer. You can also create custom timers.",
+      "live": "https://timer-app-taupe.vercel.app/",
+      "github": "https://github.com/Rafacv23/timer-app"
+    },
+    {
+      "id": 7,
+      "name": "Currency Converter",
+      "slug": "currency-converter",
+      "languages": ["React", "CSS"],
+      "mobile": true,
+      "functionalities": [
+        "Real-time data based on an external API",
+        "14 Different currencies to exchange",
+        "Toggle option to switch between to currencies"
+      ],
+      "description": "This is a simple Currency Converter web application built with React and native CSS. It allows users to convert between different currencies using real-time exchange rates fetched from a third-party API.",
+      "img": "https://i.imgur.com/b75NlE9.png",
+      "live": "https://currency-converter-nu-eight.vercel.app/",
+      "github": "https://github.com/Rafacv23/currency-converter"
+    },
+    {
+      "id": 8,
+      "name": "F1 App",
+      "slug": "f1-app",
+      "languages": ["React", "CSS"],
+      "mobile": true,
+      "img": "https://i.imgur.com/3aVL8e5.png",
+      "functionalities": [
+        "Real-time data based on an external API",
+        "Stadistics of every F1 season",
+        "Results and points for the Drivers and Constructors championships",
+        "React router for navigation"
+      ],
+      "description": "A web application created using React and CSS that offers in-depth information on Formula 1 races, drivers, teams, and season statistics. Stay up-to-date with upcoming races and explore the rich history of Formula 1.",
+      "live": "https://f1-app-three.vercel.app/",
+      "github": "https://github.com/Rafacv23/f1-app"
+    },
+    {
+      "id": 9,
+      "name": "Quiz Game",
+      "slug": "quizz-game",
+      "languages": ["React", "CSS", "Vite"],
+      "mobile": true,
+      "live": "https://questions-game-iota.vercel.app/",
+      "functionalities": [
+        "Personal database for the questions",
+        "+50 Questions in Spanish",
+        "Each question has been categorized by its difficulty",
+        "React router for navigation"
+      ],
+      "description": "This project is a quiz game developed in React using Vite and React Router. There are 20 questions in the game, and the player must choose the correct option from 4 possible choices for each question.",
+      "img": "https://i.imgur.com/kj6COpO.png",
+      "github": "https://github.com/Rafacv23/questions-game"
+    },
+    {
+      "id": 10,
+      "name": "Supermarket Service",
+      "slug": "supermarket-service",
+      "languages": ["React", "CSS", "Supabase"],
+      "mobile": true,
+      "functionalities": [
+        "Database that is based on Supabase and has a personal API.",
+        "Search engine to find your products",
+        "Filtering is available for every category",
+        "React router for navigation"
+      ],
+      "description": "The Supermarket Service app is a powerful tool designed to streamline the shopping experience. Leveraging a robust API built on Supabase, this application provides effortless access to a wide range of product data. Enabling users to find desired products with ease by allowing them to browse, search, and apply filters.",
+      "img": "https://i.imgur.com/BhoTsNk.png",
+      "github": "https://github.com/Rafacv23/supermarket-app"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+---
+import Layout from "../layouts/es/Layout.astro";
+import Section from "../components/es/info/Section.astro";
+import { Image } from "astro:assets";
+import ScrollSpy from "../components/es/info/ScrollSpy.astro";
+---
+
+<Layout title="Rafa Canosa | Trabajos" description='Información de Rafa Canosa. Desarrollador de aplicaciones web Front-end.' canonical='https://rafa-canosa-portfolio.vercel.app/info'>
+    <main class="flex flex-col gap-8">
+        <ScrollSpy/>
+        <h1 id="sobre-mi" class="text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-white to-teal-300">Sobre mí</h1>
+        <Image class="rounded-xl shadow-sm hover:shadow-teal-300 hover:shadow-lg hover:transition" src="https://i.imgur.com/106sWyZ.jpg" alt="Rafa Canosa foto" width={200} height={200}/>
+        <p>Me apasiona crear productos atractivos que potencien a las personas. Con más de 2 años de experiencia práctica en la elaboración de aplicaciones web, he perfeccionado mis habilidades en lenguajes de programación esenciales para la web, junto con una competencia en el diseño de aplicaciones de alto rendimiento. Aporto un enfoque proactivo para resolver desafíos y una dedicación a la colaboración efectiva.</p>
+        <Section/>
+    </main>
+</Layout>

@@ -1,0 +1,47 @@
+---
+const {project} = Astro.props
+import { Image } from "astro:assets";
+---
+
+<article class=" max-w-2xl items-center flex flex-col mx-auto">
+    <h1 class="text-3xl font-extrabold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-white to-teal-300">{project.name}</h1>
+    <Image class="rounded-xl" width={800} height={500} alt={project.name + " imagen"} src={project.img}/>
+    <div class="flex flex-col md:grid md:grid-cols-2 my-12 gap-8">
+        <section class="flex flex-col">
+            <h2 class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-white to-teal-300">Descripción</h2>
+            <p>{project.description}</p>
+        </section>
+        <section class="flex flex-col">
+            <h2 class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-white to-teal-300">Funcionalidades</h2>
+            <ul>
+                {project.functionalities.map((funct) => (
+                    <li class=" list-disc list-inside">{funct}</li>
+                ))}
+            </ul>
+        </section>
+        <section class="flex flex-col">
+            <h2 class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-white to-teal-300">Tecnologías</h2>
+            <ul>
+                {project.languages.map((lang) => (
+                    <li class=" list-disc list-inside">{lang}</li>
+                ))}
+            </ul>
+        </section>
+        <section class="flex items-center justify-start gap-4">
+            <img width="80px" src="https://cdn-icons-png.flaticon.com/128/8622/8622614.png" alt="versión móvil">
+            <span class="tooltip tooltip-top" data-tooltip="Disponible">
+                <button class="btn hover:btn-success">Versión móvil</button>
+            </span>
+        </section>
+    </div>
+    <section class="flex gap-4">
+        {project.live ? 
+            <a href={project.live} title={project.name + " Demo"} target="_blank" class="btn btn-solid bg-teal-300 text-black hover:bg-teal-200 hover:transition">Pruébalo tú mismo</a>
+            : null
+        }
+        {project.github ? 
+            <a href={project.github} title={project.name + " github"} target="_blank" class="btn btn-outline border-teal-300 hover:bg-teal-300 hover:text-black hover:transition">Revisa el código</a>
+            : null
+        }
+    </section>
+</article>

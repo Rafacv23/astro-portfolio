@@ -1,0 +1,166 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Taberna Precursor",
+      "slug": "taberna-precursor",
+      "languages": ["Astro", "React", "CSS", "Tailwind"],
+      "functionalities": [
+        "Página de noticias en español",
+        "Optimizada para SEO",
+        "Gran escalabilidad y rendimiento",
+        "Buscador integrado"
+      ],
+      "img": "https://i.imgur.com/zLQWVcT.png",
+      "mobile": true,
+      "description": "Taberna Precursor es una web de noticias sobre videojuegos en español. Cuenta con las últimas tecnologías en desarrollo web lo que le otorga un gran rendimiento y escalabilidad.",
+      "live": "https://taberna-precursor.vercel.app/",
+      "github": "https://github.com/Rafacv23/news-app"
+    },
+    {
+      "id": 2,
+      "name": "BlocksUi",
+      "slug": "blocks-ui",
+      "languages": ["React", "CSS", "Docusaurus", "Storybook"],
+      "functionalities": [
+        "Librería de componentes open source",
+        "Disponible en NPM",
+        "Landing page con Documentación"
+      ],
+      "img": "https://i.imgur.com/zLQWVcT.png",
+      "mobile": true,
+      "description": "BlocksUi es una librería de componentes de código abierto hecha con React y CSS. Está disponible en NPM y tiene su propia página de documentación.",
+      "live": "https://blocks-ui-docs.vercel.app/",
+      "github": "https://github.com/Rafacv23/blocks-ui"
+    },
+    {
+      "id": 3,
+      "name": "Miaudle | Idle Game",
+      "slug": "miaudle",
+      "languages": ["React", "CSS"],
+      "functionalities": [
+        "Guardado a través del Local Storage",
+        "Mejoras y sistema de progresión",
+        "Opción de reiniciar el progreso"
+      ],
+      "img": "https://i.imgur.com/OegpUOD.png",
+      "mobile": true,
+      "description": "Miaudle es un juego incremental y clicker donde tienes que recolectar adorables gatos. Puedes usar estos gatos para comprar diferentes mejoras, lo que aumentará tu generación de gatos por segundo.",
+      "live": "https://miaudle.vercel.app/",
+      "github": "https://github.com/Rafacv23/idle-game"
+    },
+    {
+      "id": 4,
+      "name": "CD Bustarviejo Landing",
+      "slug": "cd-bustarviejo",
+      "languages": ["Astro", "Tailwind"],
+      "functionalities": [
+        "Validación de formularios con JS",
+        "Optimizado y con un rendimiento excelente",
+        "Buena escalabilidad"
+      ],
+      "img": "https://i.imgur.com/a30ohMq.png",
+      "mobile": true,
+      "description": "Landing page creada para el CD Bustarviewjo, un equipo local de mi ciudad. Creado en Astro y con validación de formularios a través de JS. Rendimiento de 93.5 según Google Lighthouse.",
+      "live": "https://cd-bustarviejo-landing.vercel.app/"
+    },
+    {
+      "id": 5,
+      "name": "Pomodoro",
+      "slug": "pomodoro",
+      "languages": ["React", "CSS"],
+      "mobile": true,
+      "functionalities": [
+        "Contadores de 25 minutos",
+        "Posibilidad de cambiar entre modo claro y oscuro",
+        "Opció de parar y reiniciar el contador"
+      ],
+      "img": "https://i.imgur.com/9cpjyXD.png",
+      "description": "Este Pomodoro es una herramienta de productividad que uso en mi día a día. Nos permite manejar de forma más eficiente como controlamos nuestro tiempo de trabajo. Hecho en React, nos permite realizar intervas de 25 minutos separados por descansos cortos. Todo con una interfaz intuitiva y limpia.",
+      "live": "https://pomodoro-react-drab.vercel.app/",
+      "github": "https://github.com/Rafacv23/Projects/tree/main/06-pomodoro-react"
+    },
+    {
+      "id": 6,
+      "name": "Reloj",
+      "slug": "reloj",
+      "languages": ["React", "CSS"],
+      "mobile": true,
+      "functionalities": [
+        "Reloj en tiempo real y basado en tu zona horaria",
+        "Cronómetro con la función de parar y reiniciar",
+        "Temporizador totalmente personalizable"
+      ],
+      "img": "https://i.imgur.com/DZoysaV.png",
+      "description": "Aplicación creada con React y CSS que nos permite acceder a un reloj, un cronómetro y un temporizador personalizado.",
+      "live": "https://timer-app-taupe.vercel.app/",
+      "github": "https://github.com/Rafacv23/timer-app"
+    },
+    {
+      "id": 7,
+      "name": "Conversor de Divisas",
+      "slug": "conversor-divisas",
+      "languages": ["React", "CSS"],
+      "mobile": true,
+      "functionalities": [
+        "Datos reales y actualizados gracias a una API",
+        "14 divisas diferentes",
+        "Opción de toggle para cambiar entre dos divisas"
+      ],
+      "description": "Aplicación para conversión de divisas creada con React y CSS nativo. Permite convertir diferentes cantidades entre 14 divisas diferentes con datos actualizados en tiempo real.",
+      "img": "https://i.imgur.com/b75NlE9.png",
+      "live": "https://currency-converter-nu-eight.vercel.app/",
+      "github": "https://github.com/Rafacv23/currency-converter"
+    },
+    {
+      "id": 8,
+      "name": "F1 App",
+      "slug": "f1-app",
+      "languages": ["React", "CSS"],
+      "mobile": true,
+      "img": "https://i.imgur.com/3aVL8e5.png",
+      "functionalities": [
+        "API Datos reales y actualizados en tiempo real",
+        "Estadísticas de todas las temporadas de Fórmula 1",
+        "Resultados de todos los campeonatos, tanto de constructores como de pilotos",
+        "Utiliza react router para la navegación dinámica"
+      ],
+      "description": "Aplicación web creada con React y CSS que nos ofrece una gran cantidad de información sobre la Fórmula 1. Estadísticas, pilotos, circuitos, etc. Todo para estar al día de la competición.",
+      "live": "https://f1-app-three.vercel.app/",
+      "github": "https://github.com/Rafacv23/f1-app"
+    },
+    {
+      "id": 9,
+      "name": "Juego de preguntas",
+      "slug": "quizz-game",
+      "languages": ["React", "CSS", "Vite"],
+      "mobile": true,
+      "live": "https://questions-game-iota.vercel.app/",
+      "functionalities": [
+        "Base de datos personal para alojar las preguntas",
+        "+50 preguntas en castellano",
+        "Cada pregunta tiene su propia dificultad y están categorizadas",
+        "Navegación con react router"
+      ],
+      "description": "Este proyecto es un juego de preguntas desarrollado con React y Vite. El juego son 20 preguntas que van escalando de dificultad y tenemos un intento para completarlo.",
+      "img": "https://i.imgur.com/kj6COpO.png",
+      "github": "https://github.com/Rafacv23/questions-game"
+    },
+    {
+      "id": 10,
+      "name": "Supermercado virtual",
+      "slug": "supermercado-virtual",
+      "languages": ["React", "CSS", "Supabase"],
+      "mobile": true,
+      "functionalities": [
+        "Base de datos alojada en Supabase con su propia API",
+        "Motor de búsqueda integrado",
+        "Filtros para cada categoría",
+        "Navegación con react router"
+      ],
+      "description": "Poderosa aplicación diseñada para optimizar la compra de productos en línea. Motor de búsqueda integrado para buscar en tiempo real y filtros para las diferentes categorías de productos. Backend hecho en Supabase.",
+      "img": "https://i.imgur.com/BhoTsNk.png",
+      "github": "https://github.com/Rafacv23/supermarket-app"
+    }
+  ]
+}

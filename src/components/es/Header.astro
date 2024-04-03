@@ -1,0 +1,26 @@
+---
+import { Image } from "astro:assets";
+---
+
+<div class="navbar navbar-glass navbar-sticky">
+	<div class="navbar-center">
+		<a class="navbar-item" href="/" title="Trabajos">Trabajo</a>
+		<a class="navbar-item" href="/info" title="Info">Sobre mí</a>
+	</div>
+	<div class="navbar-end">
+		<div class="avatar avatar-ring ring-teal-300 avatar-md">
+			<div class="dropdown-container">
+				<div class="dropdown">
+					<label class="btn btn-ghost flex cursor-pointer px-0" tabindex="0">
+						<Image width={60} height={60} src="https://i.imgur.com/106sWyZ.jpg" alt="avatar" />
+					</label>
+					<div class="dropdown-menu dropdown-menu-bottom-left">
+						<a class="dropdown-item text-sm" title="Linkedin" href="https://www.linkedin.com/in/rafa-canosa-vallejo-6328a5194/" target="_blank">Linkedin ↗️</a>
+						<a title="Github" target="_blank" href="https://github.com/Rafacv23" tabindex="-1" class="dropdown-item text-sm">Github ↗️</a>
+						<a title="Cambiar a la versión inglesa" href="/en" tabindex="-1" class="dropdown-item text-sm">Cambiar a Inglés</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

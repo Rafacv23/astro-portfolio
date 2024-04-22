@@ -6,11 +6,12 @@ import CardSkeleton from '../components/loaders/CardSkeleton.astro';
 ---
 
 <Layout title="Rafa Canosa | Trabajos" description='Portfolio de Rafa Canosa. Desarrollador de aplicaciones web Front-end.' canonical='https://rafa-canosa-portfolio.vercel.app/'>
-	<main>
+	<main id="start" class="flex flex-col items-center">
 		<ul class="flex flex-col gap-8 items-center">
             {projectsData ? projectsData.projects.map((project) => (
                 <Card project={project}/>
             )) : <CardSkeleton/>}
         </ul>
+        <a href="#start" class="btn bg-white text-black hover:bg-slate-200 hover:transition-colors mt-8">Volver</a>
 	</main>
 </Layout>

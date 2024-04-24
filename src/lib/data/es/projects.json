@@ -51,6 +51,30 @@
     },
     {
       "id": 4,
+      "name": "Ninja Path",
+      "slug": "ninja-path",
+      "languages": [
+        "Astro",
+        "JavaScript",
+        "Typescript",
+        "React",
+        "CSS",
+        "Supabase"
+      ],
+      "functionalities": [
+        "Facilidad de uso y rendimiento",
+        "Backend independiente",
+        "Personalizar las URLs que creas",
+        "Estilos con Pico CSS"
+      ],
+      "img": "/ninjapath-img.avif",
+      "mobile": true,
+      "description": "Ninja Path es un acortador de URLs creado con Astro y con una base de datos en Supabase. Puedes crear tus urls en un solo click.",
+      "live": "https://ninjapath.vercel.app/",
+      "github": "https://github.com/Rafacv23/ninjapath-free-url-shortener"
+    },
+    {
+      "id": 5,
       "name": "Your Own CV",
       "slug": "your-own-cv",
       "languages": ["Astro", "Typescript", "React", "Tailwind"],
@@ -66,7 +90,7 @@
       "github": "https://github.com/Rafacv23/your-own-cv"
     },
     {
-      "id": 5,
+      "id": 6,
       "name": "CD Bustarviejo Landing",
       "slug": "cd-bustarviejo",
       "languages": ["Astro", "Tailwind"],
@@ -81,7 +105,7 @@
       "live": "https://cd-bustarviejo-landing.vercel.app/"
     },
     {
-      "id": 6,
+      "id": 7,
       "name": "Pomodoro",
       "slug": "pomodoro",
       "languages": ["React", "CSS"],
@@ -97,7 +121,7 @@
       "github": "https://github.com/Rafacv23/Projects/tree/main/06-pomodoro-react"
     },
     {
-      "id": 7,
+      "id": 8,
       "name": "Reloj",
       "slug": "reloj",
       "languages": ["React", "CSS"],
@@ -113,7 +137,7 @@
       "github": "https://github.com/Rafacv23/timer-app"
     },
     {
-      "id": 8,
+      "id": 9,
       "name": "Conversor de Divisas",
       "slug": "conversor-divisas",
       "languages": ["React", "CSS"],
@@ -129,7 +153,7 @@
       "github": "https://github.com/Rafacv23/currency-converter"
     },
     {
-      "id": 9,
+      "id": 10,
       "name": "F1 App",
       "slug": "f1-app",
       "languages": ["React", "CSS"],
@@ -146,7 +170,7 @@
       "github": "https://github.com/Rafacv23/f1-app"
     },
     {
-      "id": 10,
+      "id": 11,
       "name": "Juego de preguntas",
       "slug": "quizz-game",
       "languages": ["React", "CSS", "Vite"],
@@ -163,7 +187,7 @@
       "github": "https://github.com/Rafacv23/questions-game"
     },
     {
-      "id": 11,
+      "id": 12,
       "name": "Supermercado virtual",
       "slug": "supermercado-virtual",
       "languages": ["React", "CSS", "Supabase"],

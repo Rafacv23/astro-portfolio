@@ -23,12 +23,18 @@
       },
       {
         "id": 1004,
+        "name": "TypeScript",
+        "alt": "typescript-logo",
+        "img": "https://i.gyazo.com/thumb/1000/1a96b785ff1300c0e008687c2cd31893-png.png"
+      },
+      {
+        "id": 1005,
         "name": "Node.js",
         "alt": "node.js-logo",
         "img": "https://cdn-icons-png.flaticon.com/128/919/919825.png"
       },
       {
-        "id": 1005,
+        "id": 1006,
         "name": "PHP",
         "alt": "php-logo",
         "img": "https://cdn-icons-png.flaticon.com/128/919/919830.png"

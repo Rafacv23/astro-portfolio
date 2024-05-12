@@ -53,14 +53,7 @@
       "id": 4,
       "name": "Ninja Path",
       "slug": "ninja-path",
-      "languages": [
-        "Astro",
-        "JavaScript",
-        "Typescript",
-        "React",
-        "CSS",
-        "Supabase"
-      ],
+      "languages": ["Astro", "Typescript", "React", "CSS", "Supabase"],
       "functionalities": [
         "Facilidad de uso y rendimiento",
         "Backend independiente",

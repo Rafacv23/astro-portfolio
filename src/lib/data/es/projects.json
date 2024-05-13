@@ -19,6 +19,23 @@
     },
     {
       "id": 2,
+      "name": "F1 Connect API",
+      "slug": "f1-connect-api",
+      "languages": ["Next.js", "Typescript", "Turso", "Tailwind"],
+      "functionalities": [
+        "Api construida con Nextjs",
+        "Documentacion actualizada",
+        "Gran escalabilidad y rendimiento",
+        "Base da datos alojada en Turso"
+      ],
+      "img": "/f1-connect-api-img.avif",
+      "mobile": true,
+      "description": "F1 Connect Api es una api gratuita y fácil de usar, que está preparada para el desarrollo. Su diseño moderno y eficiente permite multitud de solicitudes a la vez.",
+      "live": "https://f1-connect-api.vercel.app/",
+      "github": "https://github.com/Rafacv23/F1-api"
+    },
+    {
+      "id": 3,
       "name": "BlocksUi",
       "slug": "blocks-ui",
       "languages": ["React", "CSS", "Docusaurus", "Storybook"],
@@ -34,7 +51,7 @@
       "github": "https://github.com/Rafacv23/blocks-ui"
     },
     {
-      "id": 3,
+      "id": 4,
       "name": "Miaudle | Idle Game",
       "slug": "miaudle",
       "languages": ["React", "CSS"],
@@ -50,7 +67,7 @@
       "github": "https://github.com/Rafacv23/idle-game"
     },
     {
-      "id": 4,
+      "id": 5,
       "name": "Ninja Path",
       "slug": "ninja-path",
       "languages": ["Astro", "Typescript", "React", "CSS", "Supabase"],
@@ -67,7 +84,7 @@
       "github": "https://github.com/Rafacv23/ninjapath-free-url-shortener"
     },
     {
-      "id": 5,
+      "id": 6,
       "name": "Your Own CV",
       "slug": "your-own-cv",
       "languages": ["Astro", "Typescript", "React", "Tailwind"],
@@ -81,21 +98,6 @@
       "description": "Your Own CV te permite crear tu propio currículum en formate pdf en tan sólo unos minutos.",
       "live": "https://your-own-cv.vercel.app/",
       "github": "https://github.com/Rafacv23/your-own-cv"
-    },
-    {
-      "id": 6,
-      "name": "CD Bustarviejo Landing",
-      "slug": "cd-bustarviejo",
-      "languages": ["Astro", "Tailwind"],
-      "functionalities": [
-        "Validación de formularios con JS",
-        "Optimizado y con un rendimiento excelente",
-        "Buena escalabilidad"
-      ],
-      "img": "/cd-bustarviejo-img.avif",
-      "mobile": true,
-      "description": "Landing page creada para el CD Bustarviewjo, un equipo local de mi ciudad. Creado en Astro y con validación de formularios a través de JS. Rendimiento de 93.5 según Google Lighthouse.",
-      "live": "https://cd-bustarviejo-landing.vercel.app/"
     },
     {
       "id": 7,

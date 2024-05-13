@@ -19,6 +19,23 @@
     },
     {
       "id": 2,
+      "name": "F1 Connect API",
+      "slug": "f1-connect-api",
+      "languages": ["Next.js", "Typescript", "Turso", "Tailwind"],
+      "functionalities": [
+        "Api built in Next.js",
+        "Updated docs with the endpoints",
+        "Great scalability and performance",
+        "Database based in MySQL"
+      ],
+      "img": "/f1-connect-api-img.avif",
+      "mobile": true,
+      "description": "F1 Connect Api is a free, easy-to-use api that is ready for development. Its modern and efficient design allows for a multitude of applications at once.",
+      "live": "https://f1-connect-api.vercel.app/",
+      "github": "https://github.com/Rafacv23/F1-api"
+    },
+    {
+      "id": 3,
       "name": "BlocksUi",
       "slug": "blocks-ui",
       "languages": ["React", "CSS", "Docusaurus", "Storybook"],
@@ -34,7 +51,7 @@
       "github": "https://github.com/Rafacv23/blocks-ui"
     },
     {
-      "id": 3,
+      "id": 4,
       "name": "Miaudle | Idle Game",
       "slug": "miaudle",
       "languages": ["React", "CSS"],
@@ -46,7 +63,7 @@
       "github": "https://github.com/Rafacv23/idle-game"
     },
     {
-      "id": 4,
+      "id": 5,
       "name": "Ninja Path",
       "slug": "ninja-path",
       "languages": ["Astro", "Typescript", "React", "CSS", "Supabase"],
@@ -63,7 +80,7 @@
       "github": "https://github.com/Rafacv23/ninjapath-free-url-shortener"
     },
     {
-      "id": 5,
+      "id": 6,
       "name": "Your Own CV",
       "slug": "your-own-cv",
       "languages": ["Astro", "Typescript", "React", "Tailwind"],
@@ -77,21 +94,6 @@
       "description": "Your Own CV allows you to create your own resume in pdf format in just a few minutes.",
       "live": "https://your-own-cv.vercel.app/",
       "github": "https://github.com/Rafacv23/your-own-cv"
-    },
-    {
-      "id": 6,
-      "name": "CD Bustarviejo Landing",
-      "slug": "cd-bustarviejo",
-      "languages": ["Astro", "Tailwind"],
-      "functionalities": [
-        "Form validation with JS",
-        "High speed performance",
-        "Good scalability"
-      ],
-      "img": "/cd-bustarviejo-img.avif",
-      "mobile": true,
-      "description": "Landing page for the CD Bustarviejo, a local team of my town. It's build with Astro and has a form validating system. His performance it's 93.5 according to lighthouse analysis.",
-      "live": "https://cd-bustarviejo-landing.vercel.app/"
     },
     {
       "id": 7,

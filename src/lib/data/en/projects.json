@@ -12,6 +12,7 @@
         "Search engine"
       ],
       "img": "/taberna-precursor-img.avif",
+      "important": true,
       "mobile": true,
       "description": "Taberna Precursor is a videogame news website written in spanish. Was developed with the latest technologies in web development wich provides a great performance and escalability.",
       "live": "https://taberna-precursor.vercel.app/",
@@ -29,6 +30,7 @@
         "Database based in MySQL"
       ],
       "img": "/f1-connect-api-img.avif",
+      "important": true,
       "mobile": true,
       "description": "F1 Connect Api is a free, easy-to-use api that is ready for development. Its modern and efficient design allows for a multitude of applications at once.",
       "live": "https://f1-connect-api.vercel.app/",
@@ -45,6 +47,7 @@
         "Landing page with documentation"
       ],
       "img": "/blocks-ui-img.avif",
+      "important": true,
       "mobile": true,
       "description": "BlocksUi is an open source component library made with React and CSS. It's available in NPM and has their own documentation page.",
       "live": "https://blocks-ui-docs.vercel.app/",
@@ -57,6 +60,7 @@
       "languages": ["React", "CSS"],
       "functionalities": ["Local storage saves", "Upgrades", "Restart option"],
       "img": "/miaudle-img.avif",
+      "important": true,
       "mobile": true,
       "description": "Miaudle is an incremental and clicker game where you collect adorable cats. You can use the cats you collect to purchase various upgrades, which will increase your cat generation rate per second.",
       "live": "https://miaudle.vercel.app/",
@@ -74,6 +78,7 @@
         "Styles with Pico CSS"
       ],
       "img": "/ninjapath-img.avif",
+      "important": true,
       "mobile": true,
       "description": "Ninja Path is a free URL shortener built with Astro and a database from Supabase. You can create your own URLs with one click.",
       "live": "https://ninjapath.vercel.app/",
@@ -90,6 +95,7 @@
         "Easy to use"
       ],
       "img": "/your-own-cv-img.avif",
+      "important": true,
       "mobile": true,
       "description": "Your Own CV allows you to create your own resume in pdf format in just a few minutes.",
       "live": "https://your-own-cv.vercel.app/",
@@ -100,6 +106,7 @@
       "name": "Pomodoro",
       "slug": "pomodoro",
       "languages": ["React", "CSS"],
+      "important": false,
       "mobile": true,
       "functionalities": [
         "25 Minutes timers",
@@ -116,6 +123,7 @@
       "name": "Timer",
       "slug": "timer",
       "languages": ["React", "CSS"],
+      "important": false,
       "mobile": true,
       "functionalities": [
         "Real-time clock based on your location and time zone",
@@ -132,6 +140,7 @@
       "name": "Currency Converter",
       "slug": "currency-converter",
       "languages": ["React", "CSS"],
+      "important": false,
       "mobile": true,
       "functionalities": [
         "Real-time data based on an external API",
@@ -148,6 +157,7 @@
       "name": "F1 App",
       "slug": "f1-app",
       "languages": ["React", "CSS"],
+      "important": false,
       "mobile": true,
       "img": "/f1-app-img.avif",
       "functionalities": [
@@ -165,6 +175,7 @@
       "name": "Quiz Game",
       "slug": "quizz-game",
       "languages": ["React", "CSS", "Vite"],
+      "important": false,
       "mobile": true,
       "live": "https://questions-game-iota.vercel.app/",
       "functionalities": [
@@ -182,6 +193,7 @@
       "name": "Supermarket Service",
       "slug": "supermarket-service",
       "languages": ["React", "CSS", "Supabase"],
+      "important": false,
       "mobile": true,
       "functionalities": [
         "Database that is based on Supabase and has a personal API.",

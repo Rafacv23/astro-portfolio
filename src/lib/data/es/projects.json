@@ -12,6 +12,7 @@
         "Buscador integrado"
       ],
       "img": "/taberna-precursor-img.avif",
+      "important": true,
       "mobile": true,
       "description": "Taberna Precursor es una web de noticias sobre videojuegos en español. Cuenta con las últimas tecnologías en desarrollo web lo que le otorga un gran rendimiento y escalabilidad.",
       "live": "https://taberna-precursor.vercel.app/",
@@ -29,6 +30,7 @@
         "Base da datos alojada en Turso"
       ],
       "img": "/f1-connect-api-img.avif",
+      "important": true,
       "mobile": true,
       "description": "F1 Connect Api es una api gratuita y fácil de usar, que está preparada para el desarrollo. Su diseño moderno y eficiente permite multitud de solicitudes a la vez.",
       "live": "https://f1-connect-api.vercel.app/",
@@ -36,19 +38,20 @@
     },
     {
       "id": 3,
-      "name": "BlocksUi",
-      "slug": "blocks-ui",
-      "languages": ["React", "CSS", "Docusaurus", "Storybook"],
+      "name": "CopyPasteUi",
+      "slug": "copy-paste-ui",
+      "languages": ["React", "CSS", "Tailwind", "Starlight", "Storybook"],
       "functionalities": [
         "Librería de componentes open source",
         "Disponible en NPM",
         "Landing page con Documentación"
       ],
       "img": "/blocks-ui-img.avif",
+      "important": true,
       "mobile": true,
-      "description": "BlocksUi es una librería de componentes de código abierto hecha con React y CSS. Está disponible en NPM y tiene su propia página de documentación.",
-      "live": "https://blocks-ui-docs.vercel.app/",
-      "github": "https://github.com/Rafacv23/blocks-ui"
+      "description": "CopyPasteUi es una librería de componentes de código abierto hecha con React y CSS. Está disponible en NPM y tiene su propia página de documentación.",
+      "live": "https://copy-paste-ui.vercel.app/",
+      "github": "https://github.com/Rafacv23/copy-paste-ui"
     },
     {
       "id": 4,
@@ -61,6 +64,7 @@
         "Opción de reiniciar el progreso"
       ],
       "img": "/miaudle-img.avif",
+      "important": true,
       "mobile": true,
       "description": "Miaudle es un juego incremental y clicker donde tienes que recolectar adorables gatos. Puedes usar estos gatos para comprar diferentes mejoras, lo que aumentará tu generación de gatos por segundo.",
       "live": "https://miaudle.vercel.app/",
@@ -78,6 +82,7 @@
         "Estilos con Pico CSS"
       ],
       "img": "/ninjapath-img.avif",
+      "important": true,
       "mobile": true,
       "description": "Ninja Path es un acortador de URLs creado con Astro y con una base de datos en Supabase. Puedes crear tus urls en un solo click.",
       "live": "https://ninjapath.vercel.app/",
@@ -94,6 +99,7 @@
         "Facilidad de uso"
       ],
       "img": "/your-own-cv-img.avif",
+      "important": true,
       "mobile": true,
       "description": "Your Own CV te permite crear tu propio currículum en formate pdf en tan sólo unos minutos.",
       "live": "https://your-own-cv.vercel.app/",
@@ -104,6 +110,7 @@
       "name": "Pomodoro",
       "slug": "pomodoro",
       "languages": ["React", "CSS"],
+      "important": false,
       "mobile": true,
       "functionalities": [
         "Contadores de 25 minutos",
@@ -120,6 +127,7 @@
       "name": "Reloj",
       "slug": "reloj",
       "languages": ["React", "CSS"],
+      "important": false,
       "mobile": true,
       "functionalities": [
         "Reloj en tiempo real y basado en tu zona horaria",
@@ -136,6 +144,7 @@
       "name": "Conversor de Divisas",
       "slug": "conversor-divisas",
       "languages": ["React", "CSS"],
+      "important": false,
       "mobile": true,
       "functionalities": [
         "Datos reales y actualizados gracias a una API",
@@ -152,6 +161,7 @@
       "name": "F1 App",
       "slug": "f1-app",
       "languages": ["React", "CSS"],
+      "important": false,
       "mobile": true,
       "img": "/f1-app-img.avif",
       "functionalities": [
@@ -169,6 +179,7 @@
       "name": "Juego de preguntas",
       "slug": "quizz-game",
       "languages": ["React", "CSS", "Vite"],
+      "important": false,
       "mobile": true,
       "live": "https://questions-game-iota.vercel.app/",
       "functionalities": [
@@ -186,6 +197,7 @@
       "name": "Supermercado virtual",
       "slug": "supermercado-virtual",
       "languages": ["React", "CSS", "Supabase"],
+      "important": false,
       "mobile": true,
       "functionalities": [
         "Base de datos alojada en Supabase con su propia API",

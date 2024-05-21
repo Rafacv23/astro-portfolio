@@ -3,22 +3,52 @@ const {project} = Astro.props
 import { Image } from "astro:assets";
 ---
 
-<li class="card card-image-cover max-w-2xl hover:transition hover:shadow-teal-300 hover:shadow-lg shadow-sm shadow-slate-700">
-	<a href=`/${project.slug}` title={project.name}>
-		<Image width="800" height="500" loading="lazy" src={project.img} alt={`${project.name}-img`} />
-	</a>
-	<div class="card-body">
-		<a href=`/${project.slug}` title={project.name}  class="card-header hover:text-teal-300 hover:transition cursor-pointer text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-white to-teal-300"><h2>{project.name}
-			</h2></a>
-		<ul class="sm:flex gap-4 grid grid-cols-2">
-			{project.languages.map((lang) => (
-				<li class="text-content2" id={`${project.name}-${lang}`}>{lang}</li>
-			))}
+<li class="mb-12">
+	<div class="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+	  <div class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+		<a href={`/${project.slug}`} title={project.name}>
+		  <Image 
+			width="800" 
+			height="500" 
+			loading="lazy" 
+			src={project.img} 
+			alt={`${project.name}-img`} 
+			class="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1" 
+		  />
+		</a>
+	  <div class="z-10 sm:order-2 sm:col-span-6">
+		<a 
+		  href={`/${project.slug}`} 
+		  title={project.name}  
+		  class="card-header hover:text-teal-300 hover:transition cursor-pointer text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-white to-teal-300"
+		>
+		  <h2 class="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base">
+			{project.name} 
+			<svg 
+			  class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" 
+			  width="24" 
+			  height="24" 
+			  viewBox="0 0 24 24" 
+			  fill="none" 
+			  xmlns="http://www.w3.org/2000/svg"
+			>
+			  <path 
+				d="M10.5253 5.49475L10.5206 7.49475L15.0782 7.50541L5.47473 17.0896L6.88752 18.5052L16.5173 8.89479L16.5065 13.5088L18.5065 13.5134L18.5253 5.51345L10.5253 5.49475Z" 
+				fill="currentColor" 
+			  />
+			</svg>
+		  </h2>
+		</a>
+		<p class="mt-2 text-sm leading-normal">{project.description}</p>
+		<ul class="mt-2 flex flex-wrap">
+		  {project.languages.map((lang) => (
+			<li class="mr-1.5 mt-2" id={`${project.name}-${lang}`}>
+			  <div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+				{lang}
+			  </div>
+			</li>
+		  ))}
 		</ul>
-		<div class="card-footer">
-			<a class="btn bg-teal-300 text-black hover:bg-teal-200 flex items-center gap-2"  title={project.name} href=`/${project.slug}`>
-				Saber más
-			</a>
-		</div>
+	  </div>
 	</div>
-</li>
+  </li>

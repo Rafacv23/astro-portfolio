@@ -4,15 +4,15 @@ import { Image } from "astro:assets";
 ---
 
 <article class=" max-w-2xl items-center flex flex-col mx-auto">
-    <h1 class="text-3xl font-extrabold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-white to-teal-300">{project.name}</h1>
+    <h1 class="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl mb-8">{project.name}</h1>
     <Image class="rounded-xl" width={800} height={500} alt={project.name + " imagen"} src={project.img}/>
     <div class="flex flex-col md:grid md:grid-cols-2 my-12 gap-8">
         <section class="flex flex-col">
-            <h2 class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-white to-teal-300">Descripción</h2>
+            <h2 class="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">Descripción</h2>
             <p>{project.description}</p>
         </section>
         <section class="flex flex-col">
-            <h2 class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-white to-teal-300">Funcionalidades</h2>
+            <h2 class="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">Funcionalidades</h2>
             <ul>
                 {project.functionalities.map((funct) => (
                     <li class=" list-disc list-inside">{funct}</li>
@@ -20,7 +20,7 @@ import { Image } from "astro:assets";
             </ul>
         </section>
         <section class="flex flex-col">
-            <h2 class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-white to-teal-300">Tecnologías</h2>
+            <h2 class="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">Tecnologías</h2>
             <ul>
                 {project.languages.map((lang) => (
                     <li class=" list-disc list-inside">{lang}</li>
@@ -36,7 +36,21 @@ import { Image } from "astro:assets";
     </div>
     <section class="flex gap-4">
         {project.live ? 
-            <a href={project.live} title={project.name + " Demo"} target="_blank" class="btn btn-solid bg-teal-300 text-black hover:bg-teal-200 hover:transition">Pruébalo tú mismo</a>
+            <a href={project.live} title={project.name + " Demo"} target="_blank" class="btn btn-solid bg-teal-300 text-black hover:bg-teal-200 hover:transition">Pruébalo tú mismo
+                            <svg 
+            class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" 
+            width="24" 
+            height="24" 
+            viewBox="0 0 24 24" 
+            fill="none" 
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path 
+              d="M10.5253 5.49475L10.5206 7.49475L15.0782 7.50541L5.47473 17.0896L6.88752 18.5052L16.5173 8.89479L16.5065 13.5088L18.5065 13.5134L18.5253 5.51345L10.5253 5.49475Z" 
+              fill="currentColor" 
+            />
+          </svg>
+            </a>
             : null
         }
         {project.github ? 

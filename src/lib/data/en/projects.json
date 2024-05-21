@@ -42,22 +42,22 @@
     },
     {
       "id": 3,
-      "name": "BlocksUi",
-      "slug": "blocks-ui",
-      "languages": ["React", "CSS", "Docusaurus", "Storybook"],
+      "name": "CopyPasteUi",
+      "slug": "copy-paste-ui",
+      "languages": ["React", "CSS", "Tailwind", "Starlight", "Storybook"],
       "year": 2024,
       "madeAt": "Freelancer",
       "functionalities": [
         "Open source component library",
-        "Available via NPM",
+        "Easy to use and deploy",
         "Landing page with documentation"
       ],
       "img": "/blocks-ui-img.avif",
       "important": true,
       "mobile": true,
-      "description": "BlocksUi is an open source component library made with React and CSS. It's available in NPM and has their own documentation page.",
-      "live": "https://blocks-ui-docs.vercel.app/",
-      "github": "https://github.com/Rafacv23/blocks-ui"
+      "description": "CopyPasteUi is an open source reusable component library made with TailwindCSS. It's has their own documentation page.",
+      "live": "https://copy-paste-ui.vercel.app/",
+      "github": "https://github.com/Rafacv23/copy-paste-ui"
     },
     {
       "id": 4,

@@ -49,13 +49,13 @@
       "madeAt": "Freelancer",
       "functionalities": [
         "Librería de componentes open source",
-        "Disponible en NPM",
+        "Fácil de usar y desplegar",
         "Landing page con Documentación"
       ],
       "img": "/blocks-ui-img.avif",
       "important": true,
       "mobile": true,
-      "description": "CopyPasteUi es una librería de componentes de código abierto hecha con React y CSS. Está disponible en NPM y tiene su propia página de documentación.",
+      "description": "CopyPasteUi es una librería de componentes reutilizables de código abierto hecha con TailwindCSS. Tiene su propia página de documentación disponible.",
       "live": "https://copy-paste-ui.vercel.app/",
       "github": "https://github.com/Rafacv23/copy-paste-ui"
     },

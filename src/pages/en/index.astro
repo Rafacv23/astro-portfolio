@@ -8,7 +8,7 @@ import { SITE_DESCRIPTION_EN, SITE_NAME_EN, SITE_URL } from '../../lib/constants
 
 <Layout title={SITE_NAME_EN} description={SITE_DESCRIPTION_EN} canonical=`${SITE_URL}/en`>
     <main  id="start">
-        <ul class="flex flex-col gap-8">
+        <ul class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
             {projectsData ? projectsData.projects.map((project) => (
                 <Card project={project}/>
             )) : <CardSkeleton/>}

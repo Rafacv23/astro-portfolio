@@ -2,16 +2,21 @@
 import Layout from "../../layouts/en/Layout.astro";
 import { Image } from "astro:assets";
 import Section from "../../components/en/info/Section.astro";
-import ScrollSpy from "../../components/en/info/ScrollSpy.astro";
 import { SITE_URL } from "../../lib/constants";
 ---
 
 <Layout title="Rafa Canosa | Info" description='About Rafa Canosa. Front-end web developer.' canonical=`${SITE_URL}/en/info`>
-    <main class="flex flex-col gap-8">
-        <ScrollSpy/>
-        <h1 id="about-me" class="text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-white to-teal-300">About Me</h1>
-        <Image class="rounded-xl shadow-sm hover:shadow-teal-300 hover:shadow-lg hover:transition" src="/avatar.avif" alt="Rafa Canosa foto" width={200} height={200}/>
-        <p>I am passionate about creating beautiful products that empower people. With over 2 years of hands-on experience in crafting web applications, I have honed my skills in programming languages essential for the web, along with a proficiency in designing high-performance applications. I bring a proactive approach to resolving challenges and a dedication to effective collaboration.</p>
-        <Section/>
+    <main class="lg:flex lg:justify-between lg:gap-4">
+        <header class="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
+            <div>
+                <h1 id="about-me" class="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl">Rafa Canosa</h1>
+                <h2 class="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">Frontend Developer</h2>
+                <Image class="rounded-xl shadow-sm hover:shadow-teal-300 hover:shadow-lg hover:transition" src="/avatar.avif" alt="Rafa Canosa foto" width={200} height={200}/>
+            </div>
+        </header>
+        <div class="pt-24 lg:w-1/2 lg:py-24">
+            <p class="mb-4">I am passionate about creating beautiful products that empower people. With over 2 years of hands-on experience in crafting web applications, I have honed my skills in programming languages essential for the web, along with a proficiency in designing high-performance applications. I bring a proactive approach to resolving challenges and a dedication to effective collaboration.</p>
+            <Section class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"/>
+        </div>
     </main>
 </Layout>

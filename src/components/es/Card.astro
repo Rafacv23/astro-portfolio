@@ -10,7 +10,7 @@ import { Image } from "astro:assets";
 	<div class="card-body">
 		<a href=`/${project.slug}` title={project.name}  class="card-header hover:text-teal-300 hover:transition cursor-pointer text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-white to-teal-300"><h2>{project.name}
 			</h2></a>
-		<ul class="flex gap-4">
+		<ul class="sm:flex gap-4 grid grid-cols-2">
 			{project.languages.map((lang) => (
 				<li class="text-content2" id={`${project.name}-${lang}`}>{lang}</li>
 			))}
@@ -23,9 +23,3 @@ import { Image } from "astro:assets";
 		</div>
 	</div>
 </li>
-
-<style>
-	li{
-		background: radial-gradient(70% 80% at center 0%, rgba(255, 255, 255, 0.06) 3%, rgba(98, 255, 179, 0) 70%, rgba(98, 255, 179, 0) 100%);
-	}
-</style>

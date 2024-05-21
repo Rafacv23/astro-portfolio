@@ -3,10 +3,10 @@ import Card from '../../components/en/Card.astro'
 import CardSkeleton from '../../components/loaders/CardSkeleton.astro'
 import Layout from '../../layouts/en/Layout.astro'
 import projectsData from '../../lib/data/en/projects.json' 
-import { SITE_DESCRIPTION_EN, SITE_URL } from '../../lib/constants'
+import { SITE_DESCRIPTION_EN, SITE_NAME_EN, SITE_URL } from '../../lib/constants'
 ---
 
-<Layout title="Rafa Canosa | Works" description={SITE_DESCRIPTION_EN} canonical=`${SITE_URL}/en`>
+<Layout title={SITE_NAME_EN} description={SITE_DESCRIPTION_EN} canonical=`${SITE_URL}/en`>
     <main  id="start">
         <ul class="flex flex-col gap-8">
             {projectsData ? projectsData.projects.map((project) => (

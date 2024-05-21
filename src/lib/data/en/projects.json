@@ -5,6 +5,8 @@
       "name": "Taberna Precursor",
       "slug": "taberna-precursor",
       "languages": ["Astro", "React", "CSS", "Tailwind"],
+      "year": 2024,
+      "madeAt": "Freelancer",
       "functionalities": [
         "News website in spanish",
         "SEO optimised",
@@ -23,6 +25,8 @@
       "name": "F1 Connect API",
       "slug": "f1-connect-api",
       "languages": ["Next.js", "Typescript", "Turso", "Tailwind"],
+      "year": 2024,
+      "madeAt": "Freelancer",
       "functionalities": [
         "Api built in Next.js",
         "Updated docs with the endpoints",
@@ -41,6 +45,8 @@
       "name": "BlocksUi",
       "slug": "blocks-ui",
       "languages": ["React", "CSS", "Docusaurus", "Storybook"],
+      "year": 2024,
+      "madeAt": "Freelancer",
       "functionalities": [
         "Open source component library",
         "Available via NPM",
@@ -58,6 +64,8 @@
       "name": "Miaudle | Idle Game",
       "slug": "miaudle",
       "languages": ["React", "CSS"],
+      "year": 2023,
+      "madeAt": "Freelancer",
       "functionalities": ["Local storage saves", "Upgrades", "Restart option"],
       "img": "/miaudle-img.avif",
       "important": true,
@@ -71,6 +79,8 @@
       "name": "Ninja Path",
       "slug": "ninja-path",
       "languages": ["Astro", "Typescript", "React", "CSS", "Supabase"],
+      "year": 2024,
+      "madeAt": "Freelancer",
       "functionalities": [
         "Easy to use, high performance",
         "Independent backend",
@@ -89,6 +99,8 @@
       "name": "Your Own CV",
       "slug": "your-own-cv",
       "languages": ["Astro", "Typescript", "React", "Tailwind"],
+      "year": 2024,
+      "madeAt": "Freelancer",
       "functionalities": [
         "Local storage saves",
         "High speed performance",
@@ -106,6 +118,8 @@
       "name": "Pomodoro",
       "slug": "pomodoro",
       "languages": ["React", "CSS"],
+      "year": 2022,
+      "madeAt": "Freelancer",
       "important": false,
       "mobile": true,
       "functionalities": [
@@ -123,6 +137,8 @@
       "name": "Timer",
       "slug": "timer",
       "languages": ["React", "CSS"],
+      "year": 2022,
+      "madeAt": "Freelancer",
       "important": false,
       "mobile": true,
       "functionalities": [
@@ -140,6 +156,8 @@
       "name": "Currency Converter",
       "slug": "currency-converter",
       "languages": ["React", "CSS"],
+      "year": 2023,
+      "madeAt": "Freelancer",
       "important": false,
       "mobile": true,
       "functionalities": [
@@ -157,6 +175,8 @@
       "name": "F1 App",
       "slug": "f1-app",
       "languages": ["React", "CSS"],
+      "year": 2023,
+      "madeAt": "Freelancer",
       "important": false,
       "mobile": true,
       "img": "/f1-app-img.avif",
@@ -175,6 +195,8 @@
       "name": "Quiz Game",
       "slug": "quizz-game",
       "languages": ["React", "CSS", "Vite"],
+      "year": 2022,
+      "madeAt": "Freelancer",
       "important": false,
       "mobile": true,
       "live": "https://questions-game-iota.vercel.app/",
@@ -193,6 +215,8 @@
       "name": "Supermarket Service",
       "slug": "supermarket-service",
       "languages": ["React", "CSS", "Supabase"],
+      "year": 2022,
+      "madeAt": "Freelancer",
       "important": false,
       "mobile": true,
       "functionalities": [

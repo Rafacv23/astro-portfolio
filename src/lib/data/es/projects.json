@@ -5,6 +5,8 @@
       "name": "Taberna Precursor",
       "slug": "taberna-precursor",
       "languages": ["Astro", "React", "CSS", "Tailwind"],
+      "year": 2024,
+      "madeAt": "Freelancer",
       "functionalities": [
         "Página de noticias en español",
         "Optimizada para SEO",
@@ -23,6 +25,8 @@
       "name": "F1 Connect API",
       "slug": "f1-connect-api",
       "languages": ["Next.js", "Typescript", "Turso", "Tailwind"],
+      "year": 2024,
+      "madeAt": "Freelancer",
       "functionalities": [
         "Api construida con Nextjs",
         "Documentacion actualizada",
@@ -41,6 +45,8 @@
       "name": "CopyPasteUi",
       "slug": "copy-paste-ui",
       "languages": ["React", "CSS", "Tailwind", "Starlight", "Storybook"],
+      "year": 2024,
+      "madeAt": "Freelancer",
       "functionalities": [
         "Librería de componentes open source",
         "Disponible en NPM",
@@ -58,6 +64,8 @@
       "name": "Miaudle | Idle Game",
       "slug": "miaudle",
       "languages": ["React", "CSS"],
+      "year": 2023,
+      "madeAt": "Freelancer",
       "functionalities": [
         "Guardado a través del Local Storage",
         "Mejoras y sistema de progresión",
@@ -75,6 +83,8 @@
       "name": "Ninja Path",
       "slug": "ninja-path",
       "languages": ["Astro", "Typescript", "React", "CSS", "Supabase"],
+      "year": 2024,
+      "madeAt": "Freelancer",
       "functionalities": [
         "Facilidad de uso y rendimiento",
         "Backend independiente",
@@ -93,6 +103,8 @@
       "name": "Your Own CV",
       "slug": "your-own-cv",
       "languages": ["Astro", "Typescript", "React", "Tailwind"],
+      "year": 2024,
+      "madeAt": "Freelancer",
       "functionalities": [
         "Guardado a través del Local Storage",
         "Alto rendimiento",
@@ -110,6 +122,8 @@
       "name": "Pomodoro",
       "slug": "pomodoro",
       "languages": ["React", "CSS"],
+      "year": 2022,
+      "madeAt": "Freelancer",
       "important": false,
       "mobile": true,
       "functionalities": [
@@ -127,6 +141,8 @@
       "name": "Reloj",
       "slug": "reloj",
       "languages": ["React", "CSS"],
+      "year": 2022,
+      "madeAt": "Freelancer",
       "important": false,
       "mobile": true,
       "functionalities": [
@@ -144,6 +160,8 @@
       "name": "Conversor de Divisas",
       "slug": "conversor-divisas",
       "languages": ["React", "CSS"],
+      "year": 2023,
+      "madeAt": "Freelancer",
       "important": false,
       "mobile": true,
       "functionalities": [
@@ -161,6 +179,8 @@
       "name": "F1 App",
       "slug": "f1-app",
       "languages": ["React", "CSS"],
+      "year": 2023,
+      "madeAt": "Freelancer",
       "important": false,
       "mobile": true,
       "img": "/f1-app-img.avif",
@@ -179,6 +199,8 @@
       "name": "Juego de preguntas",
       "slug": "quizz-game",
       "languages": ["React", "CSS", "Vite"],
+      "year": 2022,
+      "madeAt": "Freelancer",
       "important": false,
       "mobile": true,
       "live": "https://questions-game-iota.vercel.app/",
@@ -197,6 +219,8 @@
       "name": "Supermercado virtual",
       "slug": "supermercado-virtual",
       "languages": ["React", "CSS", "Supabase"],
+      "year": 2022,
+      "madeAt": "Freelancer",
       "important": false,
       "mobile": true,
       "functionalities": [

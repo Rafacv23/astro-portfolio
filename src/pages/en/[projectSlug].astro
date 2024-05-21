@@ -10,7 +10,7 @@ const project = projectSlug ? findProjectBySlug(projectSlug) : null;
 console.log(project);
 ---
 
-<Layout title={`Rafa Canosa | ${project ? project.name : ""}`} description={project ? project.description : ""} canonical={`${SITE_URL}/en/${project ? project.slug : ""}`}>
+<Layout title={`Rafa Canosa | ${project ? project.name : ""}`} description={project ? project.description : ""}>
     <main>
         {project ? 
             <Project project={project}/> :

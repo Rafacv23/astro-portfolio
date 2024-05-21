@@ -1,5 +1,7 @@
 ---
 import projectsData from '../../lib/data/es/projects.json' 
+const currentPath = Astro.url.pathname
+const englishPath =  `/en${currentPath}`;
 ---
 
 <footer class="mt-8" >
@@ -33,12 +35,12 @@ import projectsData from '../../lib/data/es/projects.json'
                     <a class="menu-item" href="/info" title="Sobre mí" tabindex="0" role="button">Sobre mí</a>
                 </li>
                 <li class="menu-item">
-                    <a href="/en" title="Cambiar a la versión en inglés">
+                    <a href=`${englishPath}` title="Cambiar a la versión en inglés">
                         Cambiar a la versión en Inglés
                     </a>
                 </li>
                 <li class="menu-item">
-                    <a href="/archivo" title="Archivo">
+                    <a href="/archive" title="Archivo">
                         Archivo
                     </a>
                 </li>

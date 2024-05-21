@@ -3,10 +3,10 @@ import Layout from '../layouts/es/Layout.astro';
 import projectsData from '../lib/data/es/projects.json' 
 import Card from '../components/es/Card.astro'
 import CardSkeleton from '../components/loaders/CardSkeleton.astro';
-import { SITE_URL } from '../lib/constants';
+import { SITE_DESCRIPTION_ES, SITE_URL } from '../lib/constants';
 ---
 
-<Layout title="Rafa Canosa | Trabajos" description='Portfolio de Rafa Canosa. Desarrollador de aplicaciones web Front-end.' canonical={SITE_URL}>
+<Layout title="Rafa Canosa | Trabajos" description={SITE_DESCRIPTION_ES} canonical={SITE_URL}>
 	<main id="start">
 		<ul class="flex flex-col gap-8 items-center">
             {projectsData ? projectsData.projects.map((project) => (

@@ -34,7 +34,7 @@ const sortedProjects = projectsData.projects.sort((a, b) => b.year - a.year);
                     <td class="py-4 pr-4 align-top font-semibold leading-snug text-slate-200">
                         <div>
                             <div class="block sm:hidden">
-                                <a class="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 sm:hidden group/link text-base" href={`/en/${project.slug}`} target="_blank" rel="noreferrer noopener" aria-label={`${project.name} (opens in a new tab)`}>
+                                <a class="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 sm:hidden group/link text-base" href={`/en/${project.slug}`} aria-label={`${project.name}`}>
                                     <span>{project.name}
                                         <span class="inline-block">
                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true">
@@ -62,7 +62,7 @@ const sortedProjects = projectsData.projects.sort((a, b) => b.year - a.year);
                     <td class="hidden py-4 align-top sm:table-cell">
                         <ul class="translate-y-1">
                             <li class="mb-1 flex items-center">
-                                <a href=`/en/${project.slug}` class="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 text-sm">
+                                <a href=`/en/${project.slug}` title={project.slug} class="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 text-sm">
                                     <span class="inline-block">
                                         {project.slug}
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="inline-block h-4 w-4 shrink-0 transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 group-focus-visible:-translate-y-1 group-focus-visible:translate-x-1 motion-reduce:transition-none ml-0.5" aria-hidden="true">

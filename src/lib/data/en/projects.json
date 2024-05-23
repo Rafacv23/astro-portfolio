@@ -52,7 +52,7 @@
         "Easy to use and deploy",
         "Landing page with documentation"
       ],
-      "img": "/blocks-ui-img.avif",
+      "img": "/copy-paste-ui-img.avif",
       "important": true,
       "mobile": true,
       "description": "CopyPasteUi is an open source reusable component library made with TailwindCSS. It's has their own documentation page.",

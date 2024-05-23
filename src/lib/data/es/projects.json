@@ -52,7 +52,7 @@
         "Fácil de usar y desplegar",
         "Landing page con Documentación"
       ],
-      "img": "/blocks-ui-img.avif",
+      "img": "/copy-paste-ui-img.avif",
       "important": true,
       "mobile": true,
       "description": "CopyPasteUi es una librería de componentes reutilizables de código abierto hecha con TailwindCSS. Tiene su propia página de documentación disponible.",

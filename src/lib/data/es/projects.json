@@ -1,6 +1,46 @@
 {
   "projects": [
     {
+      "id": 2,
+      "name": "F1 Connect API",
+      "slug": "f1-connect-api",
+      "languages": ["Next.js", "Typescript", "Playwright", "Turso", "Tailwind"],
+      "year": 2024,
+      "madeAt": "Freelancer",
+      "functionalities": [
+        "Api construida con Nextjs",
+        "Documentacion actualizada",
+        "Gran escalabilidad y rendimiento",
+        "Base da datos alojada en Turso"
+      ],
+      "img": "/f1-connect-api-img.avif",
+      "important": true,
+      "mobile": true,
+      "description": "F1 Connect Api es una api gratuita y fácil de usar, que está preparada para el desarrollo. Su diseño moderno y eficiente permite multitud de solicitudes a la vez.",
+      "live": "https://f1-connect-api.vercel.app/",
+      "github": "https://github.com/Rafacv23/F1-api"
+    },
+    {
+      "id": 5,
+      "name": "Ninja Path",
+      "slug": "ninja-path",
+      "languages": ["Astro", "Typescript", "React", "CSS", "Supabase"],
+      "year": 2024,
+      "madeAt": "Freelancer",
+      "functionalities": [
+        "Facilidad de uso y rendimiento",
+        "Backend independiente",
+        "Personalizar las URLs que creas",
+        "Estilos con Pico CSS"
+      ],
+      "img": "/ninjapath-img.avif",
+      "important": true,
+      "mobile": true,
+      "description": "Ninja Path es un acortador de URLs creado con Astro y con una base de datos en Supabase. Puedes crear tus urls en un solo click.",
+      "live": "https://ninjapath.vercel.app/",
+      "github": "https://github.com/Rafacv23/ninjapath-free-url-shortener"
+    },
+    {
       "id": 1,
       "name": "Taberna Precursor",
       "slug": "taberna-precursor",
@@ -19,26 +59,6 @@
       "description": "Taberna Precursor es una web de noticias sobre videojuegos en español. Cuenta con las últimas tecnologías en desarrollo web lo que le otorga un gran rendimiento y escalabilidad.",
       "live": "https://taberna-precursor.vercel.app/",
       "github": "https://github.com/Rafacv23/news-app"
-    },
-    {
-      "id": 2,
-      "name": "F1 Connect API",
-      "slug": "f1-connect-api",
-      "languages": ["Next.js", "Typescript", "Turso", "Tailwind"],
-      "year": 2024,
-      "madeAt": "Freelancer",
-      "functionalities": [
-        "Api construida con Nextjs",
-        "Documentacion actualizada",
-        "Gran escalabilidad y rendimiento",
-        "Base da datos alojada en Turso"
-      ],
-      "img": "/f1-connect-api-img.avif",
-      "important": true,
-      "mobile": true,
-      "description": "F1 Connect Api es una api gratuita y fácil de usar, que está preparada para el desarrollo. Su diseño moderno y eficiente permite multitud de solicitudes a la vez.",
-      "live": "https://f1-connect-api.vercel.app/",
-      "github": "https://github.com/Rafacv23/F1-api"
     },
     {
       "id": 3,
@@ -78,26 +98,7 @@
       "live": "https://miaudle.vercel.app/",
       "github": "https://github.com/Rafacv23/idle-game"
     },
-    {
-      "id": 5,
-      "name": "Ninja Path",
-      "slug": "ninja-path",
-      "languages": ["Astro", "Typescript", "React", "CSS", "Supabase"],
-      "year": 2024,
-      "madeAt": "Freelancer",
-      "functionalities": [
-        "Facilidad de uso y rendimiento",
-        "Backend independiente",
-        "Personalizar las URLs que creas",
-        "Estilos con Pico CSS"
-      ],
-      "img": "/ninjapath-img.avif",
-      "important": true,
-      "mobile": true,
-      "description": "Ninja Path es un acortador de URLs creado con Astro y con una base de datos en Supabase. Puedes crear tus urls en un solo click.",
-      "live": "https://ninjapath.vercel.app/",
-      "github": "https://github.com/Rafacv23/ninjapath-free-url-shortener"
-    },
+
     {
       "id": 6,
       "name": "Your Own CV",

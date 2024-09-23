@@ -41,6 +41,60 @@
       "github": "https://github.com/Rafacv23/ninjapath-free-url-shortener"
     },
     {
+      "id": "pokewordle",
+      "name": "PokeWordle",
+      "slug": "pokewordle",
+      "languages": [
+        "Next.js",
+        "React",
+        "Typescript",
+        "CSS",
+        "Tailwind",
+        "Zustand"
+      ],
+      "year": 2024,
+      "madeAt": "Freelancer",
+      "functionalities": [
+        "Estado global con Zustand",
+        "Internacionalización y soporte para varios temas",
+        "Fetch de datos a la Poke API",
+        "SPA"
+      ],
+      "img": "/pokewordle-img.avif",
+      "important": true,
+      "mobile": true,
+      "description": "PokeWordle es un juego SPA en el que tienes 7 oportunidades para averiguar el Pokémon secreto.",
+      "live": "https://pokemonwordle.vercel.app/",
+      "github": "https://github.com/Rafacv23/pokewordle"
+    },
+    {
+      "id": "redditly",
+      "name": "Redditly",
+      "slug": "redditly",
+      "languages": [
+        "Next.js",
+        "React",
+        "Typescript",
+        "Zustand",
+        "CSS",
+        "Tailwind",
+        "daysiUi"
+      ],
+      "year": 2024,
+      "madeAt": "Freelancer",
+      "functionalities": [
+        "Fetch sin autentificación a la API de Reddit",
+        "Estado global con Zustand",
+        "Capacidad de guardar post y subreddits"
+      ],
+      "img": "/redditly-img.avif",
+      "important": true,
+      "mobile": true,
+      "description": "Redditly es un cliente de reddit open-source capaz de manejar y almacenar tus posts y subreddits favoritos.",
+      "live": "https://redditly.vercel.app/",
+      "github": "https://github.com/Rafacv23/redditly"
+    },
+    {
       "id": 1,
       "name": "Taberna Precursor",
       "slug": "taberna-precursor",
@@ -54,7 +108,7 @@
         "Buscador integrado"
       ],
       "img": "/taberna-precursor-img.avif",
-      "important": true,
+      "important": false,
       "mobile": true,
       "description": "Taberna Precursor es una web de noticias sobre videojuegos en español. Cuenta con las últimas tecnologías en desarrollo web lo que le otorga un gran rendimiento y escalabilidad.",
       "live": "https://taberna-precursor.vercel.app/",
@@ -92,7 +146,7 @@
         "Opción de reiniciar el progreso"
       ],
       "img": "/miaudle-img.avif",
-      "important": true,
+      "important": false,
       "mobile": true,
       "description": "Miaudle es un juego incremental y clicker donde tienes que recolectar adorables gatos. Puedes usar estos gatos para comprar diferentes mejoras, lo que aumentará tu generación de gatos por segundo.",
       "live": "https://miaudle.vercel.app/",

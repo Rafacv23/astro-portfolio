@@ -41,6 +41,60 @@
       "github": "https://github.com/Rafacv23/ninjapath-free-url-shortener"
     },
     {
+      "id": "pokewordle",
+      "name": "PokeWordle",
+      "slug": "pokewordle",
+      "languages": [
+        "Next.js",
+        "React",
+        "Typescript",
+        "CSS",
+        "Tailwind",
+        "Zustand"
+      ],
+      "year": 2024,
+      "madeAt": "Freelancer",
+      "functionalities": [
+        "Global state with Zustand",
+        "Internationalization and various themes",
+        "Data fetching to the Poke API",
+        "SPA"
+      ],
+      "img": "/pokewordle-img.avif",
+      "important": true,
+      "mobile": true,
+      "description": "PokeWordle it's a SPA game where you have 7 attempts to guest a secret Pokemon.",
+      "live": "https://pokemonwordle.vercel.app/",
+      "github": "https://github.com/Rafacv23/pokewordle"
+    },
+    {
+      "id": "redditly",
+      "name": "Redditly",
+      "slug": "redditly",
+      "languages": [
+        "Next.js",
+        "React",
+        "Typescript",
+        "Zustand",
+        "CSS",
+        "Tailwind",
+        "daysiUi"
+      ],
+      "year": 2024,
+      "madeAt": "Freelancer",
+      "functionalities": [
+        "Data fetching to the Reddit API without authentication",
+        "Global state with Zustand",
+        "Save favorite posts and subreddits"
+      ],
+      "img": "/redditly-img.avif",
+      "important": true,
+      "mobile": true,
+      "description": "Redditly it's a open-source reddit client to manage your favorite posts and subreddits.",
+      "live": "https://redditly.vercel.app/",
+      "github": "https://github.com/Rafacv23/redditly"
+    },
+    {
       "id": 1,
       "name": "Taberna Precursor",
       "slug": "taberna-precursor",
@@ -88,7 +142,7 @@
       "madeAt": "Freelancer",
       "functionalities": ["Local storage saves", "Upgrades", "Restart option"],
       "img": "/miaudle-img.avif",
-      "important": true,
+      "important": false,
       "mobile": true,
       "description": "Miaudle is an incremental and clicker game where you collect adorable cats. You can use the cats you collect to purchase various upgrades, which will increase your cat generation rate per second.",
       "live": "https://miaudle.vercel.app/",

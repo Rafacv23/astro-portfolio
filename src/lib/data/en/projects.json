@@ -68,6 +68,67 @@
       "github": "https://github.com/Rafacv23/pokewordle"
     },
     {
+      "id": "bookmendator",
+      "name": "Bookmendator",
+      "slug": "bookmendator",
+      "languages": [
+        "Next.js",
+        "React",
+        "Typescript",
+        "CSS",
+        "Tailwind",
+        "Prisma",
+        "Turso",
+        "WebLLM",
+        "AI",
+        "Kinde"
+      ],
+      "year": 2024,
+      "madeAt": "Freelancer",
+      "functionalities": [
+        "AI implemented and working locally",
+        "Book commenting and review system powered by user feedback",
+        "Data fetching from an external API",
+        "Database hosted on Turso",
+        "User authentication and registration system"
+      ],
+      "img": "/bookmendator-img.avif",
+      "important": true,
+      "mobile": true,
+      "description": "Bookmendator is an application that recommends books based on your interests and preferences through a personalized AI.",
+      "live": "https://bookmendator.vercel.app/",
+      "github": "https://github.com/Rafacv23/bookmendator"
+    },
+    {
+      "id": "cinepass",
+      "name": "CinePass",
+      "slug": "cinepass",
+      "languages": [
+        "Next.js",
+        "React",
+        "Typescript",
+        "CSS",
+        "Tailwind",
+        "Prisma",
+        "Turso",
+        "Kinde"
+      ],
+      "year": 2024,
+      "madeAt": "Freelancer",
+      "functionalities": [
+        "Cinema ticket booking system",
+        "Data fetching from a custom API",
+        "Ticket management panels for both users and administrators",
+        "User authentication and registration system"
+      ],
+      "img": "/cinepass-img.avif",
+      "important": true,
+      "mobile": true,
+      "description": "CinePass is a cinema ticket booking system featuring user authentication and registration.",
+      "live": "https://cinepass-jade.vercel.app/",
+      "github": "https://github.com/Rafacv23/cinema-ticketing"
+    },
+    {
       "id": "redditly",
       "name": "Redditly",
       "slug": "redditly",

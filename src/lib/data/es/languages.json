@@ -67,7 +67,7 @@
         "id": 2004,
         "name": "Tailwind",
         "alt": "tailwind-logo",
-        "img": "https://imgs.search.brave.com/W9CbFyxwjuZCstu49xt6tccC5kk1TtWTumoZ_-X-XRU/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4u/d29ybGR2ZWN0b3Js/b2dvLmNvbS9sb2dv/cy90YWlsd2luZC1j/c3MtMi5zdmc.svg"
+        "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fd%2Fd5%2FTailwind_CSS_Logo.svg%2F1024px-Tailwind_CSS_Logo.svg.png%3F20230715030042&f=1&nofb=1&ipt=45869ac44f5bf7e1ba1908ebf234bab196f6d455ea5b770e3e0e878dbb9b0381&ipo=images"
       },
       {
         "id": 2005,
@@ -98,6 +98,12 @@
         "name": "Supabase",
         "alt": "supabase-logo",
         "img": "https://imgs.search.brave.com/K1Iu90DQq-vr7VpTD97SRSdlBYTKvo1PWhYIfZWbD0Y/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zZWVr/bG9nby5jb20vaW1h/Z2VzL1Mvc3VwYWJh/c2UtbG9nby1EQ0M2/NzZGRkUyLXNlZWts/b2dvLmNvbS5wbmc"
+      },
+      {
+        "id": 3003,
+        "name": "Prisma",
+        "alt": "prisma-logo",
+        "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.jrwmtG8KlGddFgOnzlbkKwAAAA%26pid%3DApi&f=1&ipt=7d55dfb90e5769a6515193c167fc76ede954c8ef770b0f21265accbd37e9b69e&ipo=images"
       }
     ]
   },

@@ -68,6 +68,67 @@
       "github": "https://github.com/Rafacv23/pokewordle"
     },
     {
+      "id": "bookmendator",
+      "name": "Bookmendator",
+      "slug": "bookmendator",
+      "languages": [
+        "Next.js",
+        "React",
+        "Typescript",
+        "CSS",
+        "Tailwind",
+        "Prisma",
+        "Turso",
+        "WebLLM",
+        "IA",
+        "Kinde"
+      ],
+      "year": 2024,
+      "madeAt": "Freelancer",
+      "functionalities": [
+        "IA implementada y que funciona en local",
+        "Sistema de comentarios y reviews de libros retroalimentado por usuarios",
+        "Fetch de datos a una api externa",
+        "Base de datos alojada en turso",
+        "Sistema de autentificación y registro de usuarios"
+      ],
+      "img": "/bookmendator-img.avif",
+      "important": true,
+      "mobile": true,
+      "description": "Bookmendator es un aplicación que te recomienda libros en base a tus intereses y preferencias, mediante una IA personalizada.",
+      "live": "https://bookmendator.vercel.app/",
+      "github": "https://github.com/Rafacv23/bookmendator"
+    },
+    {
+      "id": "cinepass",
+      "name": "CinePass",
+      "slug": "cinepass",
+      "languages": [
+        "Next.js",
+        "React",
+        "Typescript",
+        "CSS",
+        "Tailwind",
+        "Prisma",
+        "Turso",
+        "Kinde"
+      ],
+      "year": 2024,
+      "madeAt": "Freelancer",
+      "functionalities": [
+        "Sistema de reserva de entradas para cine",
+        "Fetch de datos a una api propia",
+        "Paneles de gestión de tickets tanto para usuarios como para administradores",
+        "Sistema de autentificación y registro de usuarios"
+      ],
+      "img": "/cinepass-img.avif",
+      "important": true,
+      "mobile": true,
+      "description": "CinePass es un sistema de reserva de entradas de cine. Mediante autentificación y registro de usuarios.",
+      "live": "https://cinepass-jade.vercel.app/",
+      "github": "https://github.com/Rafacv23/cinema-ticketing"
+    },
+    {
       "id": "redditly",
       "name": "Redditly",
       "slug": "redditly",

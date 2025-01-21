@@ -1,0 +1,19 @@
+---
+interface Props {
+    logo: any
+    title: string
+    link: string
+}
+
+const {logo: Logo, title, link} = Astro.props
+---
+
+<a title={title} href={link} target="_blank" rel="noreferrer" class="relative group/btn flex space-x-2 items-center justify-start px-4 w-full text-white rounded-md h-10 font-medium shadow-input bg-gray-50 dark:bg-zinc-900 dark:shadow-[0px_0px_1px_1px_var(--neutral-800)]" type="submit">
+    <Logo class="h-5 w-5" />
+    <span class="text-neutral-700 dark:text-neutral-300 text-sm">
+        {title}
+    </span>
+    <span class="group-hover/btn:opacity-100 block transition duration-500 opacity-0 absolute h-px w-full -bottom-px inset-x-0 bg-gradient-to-r from-transparent via-cyan-500 to-transparent">
+    </span>
+    <span class="group-hover/btn:opacity-100 blur-sm block transition duration-500 opacity-0 absolute h-px w-1/2 mx-auto -bottom-px inset-x-10 bg-gradient-to-r from-transparent via-teal-300 to-transparent"></span>
+</a>

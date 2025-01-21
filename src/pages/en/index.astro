@@ -5,6 +5,7 @@ import Layout from '@layouts/en/Layout.astro'
 import projectsData from '@lib/data/en/projects.json' 
 import { SITE_DESCRIPTION_EN, SITE_NAME_EN, SITE_URL } from '@lib/constants'
 import Hero from '@components/en/Hero.astro'
+import Contact from '@components/en/Contact.astro'
 const importantProjects = projectsData.projects.filter(project => project.important)
 
 ---
@@ -28,5 +29,6 @@ const importantProjects = projectsData.projects.filter(project => project.import
                 )) : <CardSkeleton/>}
             </ul>
         </section>
+        <Contact/>
     </main>
 </Layout>

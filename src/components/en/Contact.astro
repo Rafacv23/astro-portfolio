@@ -1,7 +1,7 @@
 <section id="contact">
     <form class="grid gap-4 pt-4">
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" placeholder="Your name" required>
+        <label for="name" class="text-sm font-medium text-black dark:text-white leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">Name</label>
+        <input class="bg-backgroundSecondary rounded-md border-0 py-2 px-3 text-black dark:text-white focus:outline-none focus:ring-2 focus:ring-teal-300 disabled:cursor-not-allowed disabled:opacity-70" type="text" id="name" name="name" placeholder="Your name" required>
         <label for="email">Email</label>
         <input type="email" id="email" name="email" placeholder="Your email" required>
         <label for="message">Message</label>
@@ -9,6 +9,11 @@
         <button type="submit">Send</button>
     </form>
     <footer>
-        <p>If you want to contact me, you can send me an email at <a href="mailto:rafacv23@gmail.com">rafacv23@gmail.com</a></p>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/rafa-canosa-vallejo-6328a5194/" target="_blank" title="Linkedin" tabindex="0" role="button">Linkedin</a></li>
+            <li><a href="https://github.com/Rafacv23" title="Github" tabindex="0" role="button">Github</a></li>
+            <li><a href="https://ko-fi.com/rafacanosa" target="_blank" title="Buy me a coffee" tabindex="0" role="button">Buy me a coffee</a></li>
+            <li><button>Copy email</button></li>
+        </ul>
     </footer>
 </section>

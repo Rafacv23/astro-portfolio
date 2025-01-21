@@ -1,19 +1,52 @@
+---
+import { Github, Linkedin, Coffee, Mail } from "lucide-astro"
+import ContactBtn from "@components/ui/ContactBtn.astro"
+
+const contactBtns = [
+    {
+        logo: Github,
+        title: "GitHub",
+        link: "https://github.com/Rafacv23"
+    },
+    {
+        logo: Linkedin,
+        title: "Linkedin",
+        link: "https://www.linkedin.com/in/rafa-canosa-vallejo-6328a5194/"
+    },
+    {
+        logo: Coffee,
+        title: "Buy me a coffee",
+        link: "https://ko-fi.com/rafacanosa"
+    }
+]
+---
+
 <section id="contact">
     <form class="grid gap-4 pt-4">
         <label for="name" class="text-sm font-medium text-black dark:text-white leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">Name</label>
-        <input class="bg-backgroundSecondary rounded-md border-0 py-2 px-3 text-black dark:text-white focus:outline-none focus:ring-2 focus:ring-teal-300 disabled:cursor-not-allowed disabled:opacity-70" type="text" id="name" name="name" placeholder="Your name" required>
+        <input class="bg-zinc-900 rounded-md border-0 py-2 px-3 text-black dark:text-white focus:outline-none focus:ring-2 focus:ring-teal-300 disabled:cursor-not-allowed disabled:opacity-70" type="text" id="name" name="name" placeholder="Your name" required>
         <label for="email">Email</label>
-        <input type="email" id="email" name="email" placeholder="Your email" required>
+        <input class="bg-zinc-900 rounded-md border-0 py-2 px-3 text-black dark:text-white focus:outline-none focus:ring-2 focus:ring-teal-300 disabled:cursor-not-allowed disabled:opacity-70" type="email" id="email" name="email" placeholder="Your email" required>
         <label for="message">Message</label>
-        <textarea id="message" name="message" placeholder="Your message" required></textarea>
+        <textarea class="bg-zinc-900 rounded-md border-0 py-2 px-3 text-black dark:text-white focus:outline-none focus:ring-2 focus:ring-teal-300 disabled:cursor-not-allowed disabled:opacity-70" id="message" name="message" placeholder="Your message" required></textarea>
         <button type="submit">Send</button>
     </form>
-    <footer>
-        <ul>
-            <li><a href="https://www.linkedin.com/in/rafa-canosa-vallejo-6328a5194/" target="_blank" title="Linkedin" tabindex="0" role="button">Linkedin</a></li>
-            <li><a href="https://github.com/Rafacv23" title="Github" tabindex="0" role="button">Github</a></li>
-            <li><a href="https://ko-fi.com/rafacanosa" target="_blank" title="Buy me a coffee" tabindex="0" role="button">Buy me a coffee</a></li>
-            <li><button>Copy email</button></li>
+    <footer class="mt-4">
+        <ul class="flex flex-col gap-4">
+            {contactBtns.map((btn) => (
+                <ContactBtn logo={btn.logo} title={btn.title} link={btn.link}/>
+            ))}
+<li>
+    <button class="relative group/btn flex space-x-2 items-center justify-start px-4 w-full text-white rounded-md h-10 font-medium shadow-input bg-gray-50 dark:bg-zinc-900 dark:shadow-[0px_0px_1px_1px_var(--neutral-800)]" type="submit">
+            <Mail/>
+            <span class="text-neutral-700 dark:text-neutral-300 text-sm">
+                Copy email
+            </span>
+            <span class="group-hover/btn:opacity-100 block transition duration-500 opacity-0 absolute h-px w-full -bottom-px inset-x-0 bg-gradient-to-r from-transparent via-teal-300 to-transparent">
+            </span>
+            <span class="group-hover/btn:opacity-100 blur-sm block transition duration-500 opacity-0 absolute h-px w-1/2 mx-auto -bottom-px inset-x-10 bg-gradient-to-r from-transparent via-teal-300 to-transparent"></span>
+        </button>
+</li>
         </ul>
     </footer>
 </section>

@@ -1,8 +1,6 @@
 ---
 import { Github, Linkedin, Coffee, Mail } from "lucide-astro"
 import ContactBtn from "@components/ui/ContactBtn.astro"
-import Label from "@components/ui/Label.astro"
-import Input from "@components/ui/Input.astro"
 
 const contactBtns = [
     {
@@ -22,16 +20,7 @@ const contactBtns = [
     }
 ]
 ---
-<form class="grid gap-4 pt-4">
-    <Label name="Name"/>
-    <Input name="name" placeholder="Your name" />
-    <Label name="Email"/>
-    <Input name="email" placeholder="Your email" />
-    <Label name="Message"/>
-    <textarea class="bg-zinc-900 rounded-md border-0 py-2 px-3 text-black dark:text-white focus:outline-none focus:ring-2 focus:ring-teal-300 disabled:cursor-not-allowed disabled:opacity-70" id="message" name="message" placeholder="Your message" required></textarea>
-    <button type="submit">Send</button>
-    </form>
-    <footer class="mt-4">
+<div>
     <ul class="flex flex-col gap-4">
             {contactBtns.map((btn) => (
                 <ContactBtn logo={btn.logo} title={btn.title} link={btn.link}/>
@@ -48,4 +37,4 @@ const contactBtns = [
         </button>
 </li>
     </ul>
-</footer>
+</div>

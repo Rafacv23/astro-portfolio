@@ -1,0 +1,30 @@
+---
+import Card from "@components/en/Card.astro";
+import CardSkeleton from "@components/loaders/CardSkeleton.astro";
+import Layout from "@layouts/en/Layout.astro";
+import projectsData from '@lib/data/en/projects.json';
+const sortedProjects = projectsData.projects.sort((a, b) => b.year - a.year);
+---
+
+<Layout title="Archive | Rafa Canosa" description="Archive with all the Rafa Canosa projects.">
+    <main class="px-4 sm:px-6 lg:px-8">
+        <header class="mb-8" id="start">
+            <a href="/en" title="Back" class="group mb-2 inline-flex items-center font-semibold leading-tight text-teal-300 text-sm gap-1">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="mr-1 h-3 w-3 rotate-180 transition-transform group-hover:-translate-x-2" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clip-rule="evenodd"></path>
+                </svg>
+                Back
+            </a>
+            <h1 class="text-3xl font-bold mb-4">All Projects</h1>
+        </header>
+        <ul>
+            {projectsData ? sortedProjects.map((project) => (
+                <Card project={project}/>
+            )) : <CardSkeleton/>}
+        </ul>
+        <a href="#start" class="btn bg-transparent text-slate-100 hover:text-teal-300 hover:transition-colors mt-8 flex items-center gap-2">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17.6568 8.96219L16.2393 10.3731L12.9843 7.10285L12.9706 20.7079L10.9706 20.7059L10.9843 7.13806L7.75404 10.3532L6.34314 8.93572L12.0132 3.29211L17.6568 8.96219Z" fill="currentColor" /></svg>
+            Back to top
+        </a>
+    </main>
+</Layout>

@@ -4,7 +4,7 @@ const currentPath = Astro.url.pathname
 const spanishPath = currentPath === "/en" ? "/" :  currentPath.replace(/^\/en/, '');
 ---
 
-<div class="navbar navbar-glass navbar-sticky mx-auto flex justify-between lg:justify-evenly text-slate-100">
+<div class="navbar navbar-glass navbar-sticky mx-auto flex justify-between lg:justify-evenly text-primary">
 	<div>
 		<a class="navbar-item flex items-center gap-2" href="/en" title="Home">
 			rafacanosa.dev
@@ -13,13 +13,13 @@ const spanishPath = currentPath === "/en" ? "/" :  currentPath.replace(/^\/en/, 
 	<div>
 		<div class="flex items-center">
 			<a class="text-sm flex flex-row items-center navbar-item" title="Linkedin" href="https://www.linkedin.com/in/rafa-canosa-vallejo-6328a5194/" rel="noreferrer" target="_blank">
-				<Linkedin/>
+				<Linkedin class="w-5 h-5"/>
 			</a>
 			<a title="Github" rel="noreferrer" target="_blank" href="https://github.com/Rafacv23" class="navbar-item text-sm flex flex-row items-center">
-				<Github />
+				<Github class="w-5 h-5" />
 			</a>
 			<a title="Change to spanish version" href={spanishPath} class="navbar-item text-sm flex flex-row items-center">
-				<Languages />
+				<Languages class="w-5 h-5" />
 			</a>
 		</div>
 	</div>

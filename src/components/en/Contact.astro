@@ -26,14 +26,14 @@ const contactBtns = [
                 <ContactBtn logo={btn.logo} title={btn.title} link={btn.link}/>
             ))}
 <li>
-    <button class="relative group/btn flex space-x-2 items-center justify-start px-4 w-full text-white rounded-md h-10 font-medium shadow-input bg-gray-50 dark:bg-zinc-900 dark:shadow-[0px_0px_1px_1px_var(--neutral-800)]" type="submit">
-            <Mail/>
-            <span class="text-neutral-700 dark:text-neutral-300 text-sm">
+    <button class="relative group/btn flex space-x-2 items-center justify-start px-4 w-full text-primary rounded-md h-10 font-medium shadow-input bg-gray-50 dark:bg-card dark:shadow-[0px_0px_1px_1px_var(--neutral-800)]" type="submit">
+            <Mail class="h-4 w-4"/>
+            <span class="text-primary text-sm">
                 Copy email
             </span>
-            <span class="group-hover/btn:opacity-100 block transition duration-500 opacity-0 absolute h-px w-full -bottom-px inset-x-0 bg-gradient-to-r from-transparent via-teal-300 to-transparent">
+            <span class="group-hover/btn:opacity-100 block transition duration-500 opacity-0 absolute h-px w-full -bottom-px inset-x-0 bg-gradient-to-r from-transparent via-accent to-transparent">
             </span>
-            <span class="group-hover/btn:opacity-100 blur-sm block transition duration-500 opacity-0 absolute h-px w-1/2 mx-auto -bottom-px inset-x-10 bg-gradient-to-r from-transparent via-teal-300 to-transparent"></span>
+            <span class="group-hover/btn:opacity-100 blur-sm block transition duration-500 opacity-0 absolute h-px w-1/2 mx-auto -bottom-px inset-x-10 bg-gradient-to-r from-transparent via-accent to-transparent"></span>
         </button>
 </li>
     </ul>

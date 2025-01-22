@@ -1,6 +1,8 @@
 ---
 import { Github, Linkedin, Coffee, Mail } from "lucide-astro"
 import ContactBtn from "@components/ui/ContactBtn.astro"
+import Label from "@components/ui/Label.astro"
+import Input from "@components/ui/Input.astro"
 
 const contactBtns = [
     {
@@ -20,19 +22,17 @@ const contactBtns = [
     }
 ]
 ---
-
-<section id="contact">
-    <form class="grid gap-4 pt-4">
-        <label for="name" class="text-sm font-medium text-black dark:text-white leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">Name</label>
-        <input class="bg-zinc-900 rounded-md border-0 py-2 px-3 text-black dark:text-white focus:outline-none focus:ring-2 focus:ring-teal-300 disabled:cursor-not-allowed disabled:opacity-70" type="text" id="name" name="name" placeholder="Your name" required>
-        <label for="email">Email</label>
-        <input class="bg-zinc-900 rounded-md border-0 py-2 px-3 text-black dark:text-white focus:outline-none focus:ring-2 focus:ring-teal-300 disabled:cursor-not-allowed disabled:opacity-70" type="email" id="email" name="email" placeholder="Your email" required>
-        <label for="message">Message</label>
-        <textarea class="bg-zinc-900 rounded-md border-0 py-2 px-3 text-black dark:text-white focus:outline-none focus:ring-2 focus:ring-teal-300 disabled:cursor-not-allowed disabled:opacity-70" id="message" name="message" placeholder="Your message" required></textarea>
-        <button type="submit">Send</button>
+<form class="grid gap-4 pt-4">
+    <Label name="Name"/>
+    <Input name="name" placeholder="Your name" />
+    <Label name="Email"/>
+    <Input name="email" placeholder="Your email" />
+    <Label name="Message"/>
+    <textarea class="bg-zinc-900 rounded-md border-0 py-2 px-3 text-black dark:text-white focus:outline-none focus:ring-2 focus:ring-teal-300 disabled:cursor-not-allowed disabled:opacity-70" id="message" name="message" placeholder="Your message" required></textarea>
+    <button type="submit">Send</button>
     </form>
     <footer class="mt-4">
-        <ul class="flex flex-col gap-4">
+    <ul class="flex flex-col gap-4">
             {contactBtns.map((btn) => (
                 <ContactBtn logo={btn.logo} title={btn.title} link={btn.link}/>
             ))}
@@ -47,6 +47,5 @@ const contactBtns = [
             <span class="group-hover/btn:opacity-100 blur-sm block transition duration-500 opacity-0 absolute h-px w-1/2 mx-auto -bottom-px inset-x-10 bg-gradient-to-r from-transparent via-teal-300 to-transparent"></span>
         </button>
 </li>
-        </ul>
-    </footer>
-</section>
+    </ul>
+</footer>

@@ -1,8 +1,8 @@
 ---
 export const prerender = false
-import Project from "../components/es/Project.astro"
-import Layout from "../layouts/es/Layout.astro"
-import {findProjectBySlug} from '../lib/api/es/findProjectBySlug.js'
+import Project from "@components/es/Project.astro"
+import Layout from "@layouts/es/Layout.astro"
+import {findProjectBySlug} from '@lib/api/es/findProjectBySlug.js'
 const {projectSlug} = Astro.params 
 const project = findProjectBySlug(projectSlug)
 ---

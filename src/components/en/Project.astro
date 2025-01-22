@@ -3,27 +3,27 @@ const {project} = Astro.props
 import { Image } from "astro:assets";
 ---
 
-<article class=" max-w-2xl items-center flex flex-col mx-auto">
-    <h1 class="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl mb-8">{project.name}</h1>
+<article class="items-center flex flex-col mx-auto">
+    <h1 class="text-4xl font-bold tracking-tight text-slate-100 sm:text-5xl mb-8">{project.name}</h1>
     <Image class="rounded-xl" width={800} height={500} alt={project.name + " imagen"} src={project.img}/>
     <div class="flex flex-col md:grid md:grid-cols-2 my-12 gap-8">
         <section class="flex flex-col">
-            <h2 class="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">Description</h2>
-            <p>{project.description}</p>
+            <h2 class="mt-3 text-xl font-medium tracking-tight text-slate-100 sm:text-xl">Description</h2>
+            <p class="text-zinc-300">{project.description}</p>
         </section>
         <section class="flex flex-col">
-            <h2 class="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">Functions</h2>
+            <h2 class="mt-3 text-xl font-medium tracking-tight text-slate-100 sm:text-xl">Functions</h2>
             <ul>
                 {project.functionalities.map((funct) => (
-                    <li class=" list-disc list-inside">{funct}</li>
+                    <li class=" list-disc list-inside text-zinc-300">{funct}</li>
                 ))}
             </ul>
         </section>
         <section class="flex flex-col">
-            <h2 class="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">Technologies</h2>
+            <h2 class="mt-3 text-xl font-medium tracking-tight text-slate-100 sm:text-xl">Technologies</h2>
             <ul>
                 {project.languages.map((lang) => (
-                    <li class=" list-disc list-inside">{lang}</li>
+                    <li class="list-disc list-inside text-zinc-300">{lang}</li>
                 ))}
             </ul>
         </section>

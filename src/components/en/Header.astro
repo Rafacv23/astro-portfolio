@@ -4,21 +4,21 @@ const currentPath = Astro.url.pathname
 const spanishPath = currentPath === "/en" ? "/" :  currentPath.replace(/^\/en/, '');
 ---
 
-<div class="navbar navbar-glass navbar-sticky max-w-[800px] mx-auto">
-	<div class="navbar-start">
-		<a class="navbar-item flex items-center gap-2" href="/" title="Home">
+<div class="navbar navbar-glass navbar-sticky mx-auto flex justify-between lg:justify-evenly text-slate-100">
+	<div>
+		<a class="navbar-item flex items-center gap-2" href="/en" title="Home">
 			rafacanosa.dev
 		</a>
 	</div>
-	<div class="navbar-end">
-		<div class="flex items-center gap-4">
-			<a class="text-sm flex flex-row items-center gap-2" title="Linkedin" href="https://www.linkedin.com/in/rafa-canosa-vallejo-6328a5194/" rel="noreferrer" target="_blank">
+	<div>
+		<div class="flex items-center">
+			<a class="text-sm flex flex-row items-center navbar-item" title="Linkedin" href="https://www.linkedin.com/in/rafa-canosa-vallejo-6328a5194/" rel="noreferrer" target="_blank">
 				<Linkedin/>
 			</a>
-			<a title="Github" rel="noreferrer" target="_blank" href="https://github.com/Rafacv23" class="text-sm flex flex-row items-center gap-2">
+			<a title="Github" rel="noreferrer" target="_blank" href="https://github.com/Rafacv23" class="navbar-item text-sm flex flex-row items-center">
 				<Github />
 			</a>
-			<a title="Change to spanish version" href=`${spanishPath}` class="text-sm flex flex-row items-center gap-2">
+			<a title="Change to spanish version" href={spanishPath} class="navbar-item text-sm flex flex-row items-center">
 				<Languages />
 			</a>
 		</div>

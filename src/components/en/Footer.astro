@@ -1,11 +1,10 @@
 ---
 import {Heart} from "lucide-astro";
 const currentPath = Astro.url.pathname
-const spanishPath = currentPath === "/en" ? "/" :  currentPath.replace(/^\/en/, '');
 ---
 
-<footer class="my-8 max-w-[800px] mx-auto flex gap-2 justify-center items-center" >
-    Created with <Heart/> by <a href="https://rafacanosa.dev" title="rafacanosa.dev">Rafa</a>
+<footer class="mt-8 py-4 mx-auto flex gap-2 justify-center items-center" >
+    Created with <Heart/> by <a href={currentPath} title="rafacanosa.dev">Rafa</a>
 </footer>
 
 <style>

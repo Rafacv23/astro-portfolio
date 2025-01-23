@@ -23,7 +23,7 @@ const contactBtns = [
 <div>
     <ul class="flex flex-col gap-4">
             {contactBtns.map((btn) => (
-              <li>
+              <li id={btn.title}>
                 <ContactBtn logo={btn.logo} title={btn.title} link={btn.link}/>
               </li>
             ))}

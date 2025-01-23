@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://rafa-canosa-portfolio.vercel.app/sitemap-index.xml
+Sitemap: https://www.rafacanosa.dev/sitemap-index.xml

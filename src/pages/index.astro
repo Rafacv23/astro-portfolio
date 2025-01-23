@@ -2,7 +2,6 @@
 import Layout from '../layouts/es/Layout.astro';
 import projectsData from '../lib/data/es/projects.json' 
 import Card from '../components/es/Card.astro'
-import CardSkeleton from '../components/loaders/CardSkeleton.astro';
 import { SITE_DESCRIPTION_ES, SITE_NAME_ES, SITE_URL } from '../lib/constants';
 
 const importantProjects = projectsData.projects.filter(project => project.important)
@@ -13,7 +12,7 @@ const importantProjects = projectsData.projects.filter(project => project.import
         <ul class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
             {projectsData ? importantProjects.map((project) => (
                 <Card project={project}/>
-            )) : <CardSkeleton/>}
+            )) : null}
         </ul>
         <a href="/archive" class="group mb-2 inline-flex items-center font-semibold leading-tight hover:text-teal-300">
             Ver el archivo completo de proyectos 

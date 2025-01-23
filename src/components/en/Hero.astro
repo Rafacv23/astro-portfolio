@@ -1,16 +1,18 @@
 ---
 import AnimatedBtn from "@components/ui/AnimatedBtn.astro";
+import { Image } from "astro:assets";
 ---
 
 <section class="flex flex-col items-center justify-center gap-4 py-16 px-4">
-	<h1 class="text-5xl font-bold text-primary">
+	<Image class="rounded-xl shadow-sm hover:shadow-accent hover:shadow-lg hover:transition" src="/avatar.avif" alt="Rafa Canosa foto" width={150} height={150}/>
+	<h1 class="text-4xl md:text-5xl font-bold text-primary">
 		Engineer &
 		<span class="bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent">Web Developer</span>
 	</h1>
-	<p class="text-xl text-secondary">
+	<p class="text-sm md:text-xl text-secondary mb-4">
 		Hi, I'm Rafa Canosa, a software engineer with 2+ years of experience. I'm currently working as a frontend developer building open source projects.
 	</p>
 	<AnimatedBtn>
-		<a title="Contact" href="#contact">Contact 🤝</a>
+		Contact 🤝
 	</AnimatedBtn>
 </section>

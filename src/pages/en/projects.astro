@@ -1,12 +1,11 @@
 ---
 import Card from "@components/en/Card.astro";
-import CardSkeleton from "@components/loaders/CardSkeleton.astro";
 import Layout from "@layouts/en/Layout.astro";
-import projectsData from '@lib/data/en/projects.json';
-const sortedProjects = projectsData.projects.sort((a, b) => b.year - a.year);
+import { getSortedProjects } from "@lib/projects";
+const sortedProjects = getSortedProjects();
 ---
 
-<Layout title="Archive | Rafa Canosa" description="Archive with all the Rafa Canosa projects.">
+<Layout title="Projects | Rafa Canosa" description="All the Rafa Canosa projects.">
     <main class="px-4 sm:px-6 lg:px-8">
         <header class="mb-8" id="start">
             <a href="/en" title="Back" class="group mb-2 inline-flex items-center font-semibold leading-tight text-teal-300 text-sm gap-1">
@@ -18,9 +17,9 @@ const sortedProjects = projectsData.projects.sort((a, b) => b.year - a.year);
             <h1 class="text-3xl font-bold mb-4">All Projects</h1>
         </header>
         <ul>
-            {projectsData ? sortedProjects.map((project) => (
+            {sortedProjects.map((project) => (
                 <Card project={project}/>
-            )) : <CardSkeleton/>}
+            ))}
         </ul>
         <a href="#start" class="btn bg-transparent text-slate-100 hover:text-teal-300 hover:transition-colors mt-8 flex items-center gap-2">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17.6568 8.96219L16.2393 10.3731L12.9843 7.10285L12.9706 20.7079L10.9706 20.7059L10.9843 7.13806L7.75404 10.3532L6.34314 8.93572L12.0132 3.29211L17.6568 8.96219Z" fill="currentColor" /></svg>

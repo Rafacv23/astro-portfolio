@@ -1,14 +1,12 @@
 ---
 import Card from '@components/en/Card.astro'
-import CardSkeleton from '@components/loaders/CardSkeleton.astro'
 import Layout from '@layouts/en/Layout.astro'
-import projectsData from '@lib/data/en/projects.json' 
 import { SITE_DESCRIPTION_EN, SITE_NAME_EN, SITE_URL } from '@lib/constants'
 import Hero from '@components/en/Hero.astro'
 import Contact from '@components/en/Contact.astro'
 import Section from '@components/ui/Section.astro'
-const importantProjects = projectsData.projects.filter(project => project.important)
-
+import { getImportantProjects } from '@lib/projects'
+const importantProjects = getImportantProjects()
 ---
 
 <Layout title={SITE_NAME_EN} description={SITE_DESCRIPTION_EN} canonical=`${SITE_URL}/en`>
@@ -16,9 +14,9 @@ const importantProjects = projectsData.projects.filter(project => project.import
         <Hero/>
         <Section title='Projects' more>    
         <ul>
-            {projectsData ? importantProjects.map((project) => (
+            {importantProjects.map((project) => (
                 <Card project={project}/>
-            )) : <CardSkeleton/>}
+            ))}
         </ul>
     </Section>
         <Section title='Contact'>

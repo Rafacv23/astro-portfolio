@@ -15,7 +15,6 @@
       ],
       "img": "/f1-connect-api-img.avif",
       "important": true,
-      "mobile": true,
       "description": "F1 Connect Api is a free, easy-to-use api that is ready for development. Its modern and efficient design allows for a multitude of applications at once.",
       "live": "https://f1-connect-api.vercel.app/",
       "github": "https://github.com/Rafacv23/F1-api"
@@ -35,7 +34,6 @@
       ],
       "img": "/ninjapath-img.avif",
       "important": true,
-      "mobile": true,
       "description": "Ninja Path is a free URL shortener built with Astro and a database from Supabase. You can create your own URLs with one click.",
       "live": "https://ninjapath.vercel.app/",
       "github": "https://github.com/Rafacv23/ninjapath-free-url-shortener"
@@ -62,7 +60,6 @@
       ],
       "img": "/pokewordle-img.avif",
       "important": true,
-      "mobile": true,
       "description": "PokeWordle it's a SPA game where you have 7 attempts to guest a secret Pokemon.",
       "live": "https://pokemonwordle.vercel.app/",
       "github": "https://github.com/Rafacv23/pokewordle"
@@ -94,7 +91,6 @@
       ],
       "img": "/bookmendator-img.avif",
       "important": true,
-      "mobile": true,
       "description": "Bookmendator is an application that recommends books based on your interests and preferences through a personalized AI.",
       "live": "https://bookmendator.vercel.app/",
       "github": "https://github.com/Rafacv23/bookmendator"
@@ -123,7 +119,6 @@
       ],
       "img": "/cinepass-img.avif",
       "important": true,
-      "mobile": true,
       "description": "CinePass is a cinema ticket booking system featuring user authentication and registration.",
       "live": "https://cinepass-jade.vercel.app/",
       "github": "https://github.com/Rafacv23/cinema-ticketing"
@@ -150,7 +145,6 @@
       ],
       "img": "/redditly-img.avif",
       "important": true,
-      "mobile": true,
       "description": "Redditly it's a open-source reddit client to manage your favorite posts and subreddits.",
       "live": "https://redditly.vercel.app/",
       "github": "https://github.com/Rafacv23/redditly"
@@ -170,7 +164,6 @@
       ],
       "img": "/taberna-precursor-img.avif",
       "important": false,
-      "mobile": true,
       "description": "Taberna Precursor is a videogame news website written in spanish. Was developed with the latest technologies in web development wich provides a great performance and escalability.",
       "live": "https://taberna-precursor.vercel.app/",
       "github": "https://github.com/Rafacv23/news-app"
@@ -189,7 +182,6 @@
       ],
       "img": "/copy-paste-ui-img.avif",
       "important": true,
-      "mobile": true,
       "description": "CopyPasteUi is an open source reusable component library made with TailwindCSS. It's has their own documentation page.",
       "live": "https://copy-paste-ui.vercel.app/",
       "github": "https://github.com/Rafacv23/copy-paste-ui"
@@ -204,7 +196,6 @@
       "functionalities": ["Local storage saves", "Upgrades", "Restart option"],
       "img": "/miaudle-img.avif",
       "important": false,
-      "mobile": true,
       "description": "Miaudle is an incremental and clicker game where you collect adorable cats. You can use the cats you collect to purchase various upgrades, which will increase your cat generation rate per second.",
       "live": "https://miaudle.vercel.app/",
       "github": "https://github.com/Rafacv23/idle-game"
@@ -224,7 +215,6 @@
       ],
       "img": "/your-own-cv-img.avif",
       "important": true,
-      "mobile": true,
       "description": "Your Own CV allows you to create your own resume in pdf format in just a few minutes.",
       "live": "https://your-own-cv.vercel.app/",
       "github": "https://github.com/Rafacv23/your-own-cv"
@@ -237,7 +227,6 @@
       "year": 2022,
       "madeAt": "Freelancer",
       "important": false,
-      "mobile": true,
       "functionalities": [
         "25 Minutes timers",
         "Toggle between dark and light themes",
@@ -256,7 +245,6 @@
       "year": 2022,
       "madeAt": "Freelancer",
       "important": false,
-      "mobile": true,
       "functionalities": [
         "Real-time clock based on your location and time zone",
         "Chronometer function with start/stop",
@@ -275,7 +263,6 @@
       "year": 2023,
       "madeAt": "Freelancer",
       "important": false,
-      "mobile": true,
       "functionalities": [
         "Real-time data based on an external API",
         "14 Different currencies to exchange",
@@ -294,7 +281,6 @@
       "year": 2023,
       "madeAt": "Freelancer",
       "important": false,
-      "mobile": true,
       "img": "/f1-app-img.avif",
       "functionalities": [
         "Real-time data based on an external API",
@@ -314,7 +300,6 @@
       "year": 2022,
       "madeAt": "Freelancer",
       "important": false,
-      "mobile": true,
       "live": "https://questions-game-iota.vercel.app/",
       "functionalities": [
         "Personal database for the questions",
@@ -334,7 +319,6 @@
       "year": 2022,
       "madeAt": "Freelancer",
       "important": false,
-      "mobile": true,
       "functionalities": [
         "Database that is based on Supabase and has a personal API.",
         "Search engine to find your products",

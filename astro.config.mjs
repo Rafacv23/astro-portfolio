@@ -7,10 +7,7 @@ import partytown from "@astrojs/partytown"
 // https://astro.build/config
 export default defineConfig({
   integrations: [
-    tailwind({
-      applyBaseStyles: true,
-      configFile: "./tailwind.config.mjs",
-    }),
+    tailwind(),
     sitemap(),
     partytown({
       config: {

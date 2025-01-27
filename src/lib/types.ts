@@ -8,7 +8,6 @@ type Project = {
   functionalities: string[]
   img: string
   important: boolean
-  mobile: boolean
   description: string
   live?: string
   github: string

@@ -9,7 +9,7 @@ export default defineConfig({
   integrations: [
     tailwind({
       applyBaseStyles: true,
-      configFile: ".\tailwind.config.mjs",
+      configFile: "./tailwind.config.mjs",
     }),
     sitemap(),
     partytown({

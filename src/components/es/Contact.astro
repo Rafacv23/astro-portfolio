@@ -1,0 +1,70 @@
+---
+import { Github, Linkedin, Coffee, Mail } from "lucide-astro"
+import ContactBtn from "@components/ui/ContactBtn.astro"
+
+const contactBtns = [
+    {
+        logo: Github,
+        title: "GitHub",
+        link: "https://github.com/Rafacv23"
+    },
+    {
+        logo: Linkedin,
+        title: "Linkedin",
+        link: "https://www.linkedin.com/in/rafa-canosa-vallejo-6328a5194/"
+    },
+    {
+        logo: Coffee,
+        title: "Invítame a un café",
+        link: "https://ko-fi.com/rafacanosa"
+    }
+]
+---
+<div>
+    <ul class="flex flex-col gap-4">
+            {contactBtns.map((btn) => (
+              <li id={btn.title}>
+                <ContactBtn logo={btn.logo} title={btn.title} link={btn.link}/>
+              </li>
+            ))}
+<li>
+    <button class="relative group/btn flex space-x-2 items-center justify-start px-4 w-full text-primary rounded-md h-10 font-medium shadow-input bg-gray-50 dark:bg-card dark:shadow-[0px_0px_1px_1px_var(--neutral-800)]"  id="copy-email-btn">
+            <Mail class="h-4 w-4"/>
+            <span class="text-primary text-sm" id="copy-email-btn-text">
+                Copiar email
+            </span>
+            <span class="group-hover/btn:opacity-100 block transition duration-500 opacity-0 absolute h-px w-full -bottom-px inset-x-0 bg-gradient-to-r from-transparent via-accent to-transparent">
+            </span>
+            <span class="group-hover/btn:opacity-100 blur-sm block transition duration-500 opacity-0 absolute h-px w-1/2 mx-auto -bottom-px inset-x-10 bg-gradient-to-r from-transparent via-accent to-transparent"></span>
+        </button>
+</li>
+    </ul>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const email = "rafacv23@gmail.com";
+      const button = document.getElementById("copy-email-btn");
+      const btnText = document.getElementById("copy-email-btn-text");
+  
+      if (button) {
+        button.addEventListener("click", () => {
+          if (navigator.clipboard) {
+            navigator.clipboard
+              .writeText(email)
+              .then(() => {
+                btnText.innerText = "Copiado!";
+                setTimeout(() => {
+                  btnText.innerText = "Copiar email";
+                }, 2000);
+              })
+              .catch((err) => {
+                console.error("Could not copy email:", err);
+              });
+          } else {
+            console.error("Clipboard API is not supported in this browser.");
+          }
+        });
+      }
+    });
+</script>

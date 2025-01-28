@@ -1,0 +1,18 @@
+---
+import AnimatedBtn from "@components/ui/AnimatedBtn.astro";
+import { Image } from "astro:assets";
+---
+
+<section class="flex flex-col items-center justify-center gap-4 py-16 px-4">
+	<Image class="rounded-xl shadow-sm hover:shadow-accent hover:shadow-lg hover:transition" src="/avatar.avif" alt="Rafa Canosa foto" width={150} height={150}/>
+	<h1 class="text-4xl md:text-4xl font-bold text-primary">
+		Desarrollador de
+		<span class="bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent">aplicaciones web</span>
+	</h1>
+	<p class="text-sm md:text-xl text-secondary mb-4">
+		Hola, soy Rafa Canosa, un ingeniero de software con 2+ años de experiencia. Actualmente trabajo como desarrollador de frontend construyendo proyectos de código abierto.
+	</p>
+	<AnimatedBtn>
+		Contacto 🤝
+	</AnimatedBtn>
+</section>

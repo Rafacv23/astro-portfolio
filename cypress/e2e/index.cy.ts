@@ -120,3 +120,38 @@ describe("Project utility functions", () => {
     })
   })
 })
+
+describe("navigation tests", () => {
+  it("should navigate to the projects page, english version", () => {
+    cy.visit("/en")
+
+    cy.contains("a", "Check more").click()
+
+    cy.title().should("eq", "Projects | Rafa Canosa")
+  })
+
+  it("should navigate to the projects page, spanish version", () => {
+    cy.visit("/")
+
+    cy.contains("a", "Ver más").click()
+
+    cy.title().should("eq", "Proyectos | Rafa Canosa")
+  })
+
+  it("should change the language to spanish", () => {
+    cy.visit("/en")
+
+    cy.get("a[title='Cambiar a la versión en español']").click()
+    cy.title().should(
+      "eq",
+      "Rafa Canosa | Desarrollador de Aplicaciones Web Portfolio"
+    )
+  })
+
+  it("should change to english version", () => {
+    cy.visit("/")
+
+    cy.get("a[title='Change to English version']").click()
+    cy.title().should("eq", "Rafa Canosa | Engineer & Web Developer Portfolio")
+  })
+})

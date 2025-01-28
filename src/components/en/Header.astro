@@ -1,7 +1,5 @@
 ---
 import { Linkedin, Github, Languages } from "lucide-astro";
-const currentPath = Astro.url.pathname
-const spanishPath = currentPath === "/en" ? "/" :  currentPath.replace(/^\/en/, '');
 ---
 
 <div class="navbar navbar-glass navbar-sticky mx-auto flex justify-between lg:justify-evenly text-primary">
@@ -18,7 +16,7 @@ const spanishPath = currentPath === "/en" ? "/" :  currentPath.replace(/^\/en/, 
 			<a title="Github" rel="noreferrer" target="_blank" href="https://github.com/Rafacv23" class="navbar-item text-sm flex flex-row items-center">
 				<Github class="w-5 h-5" />
 			</a>
-			<a title="Change to spanish version" href={spanishPath} class="navbar-item text-sm flex flex-row items-center">
+			<a title="Cambiar a la versión en español" href={"/"} class="navbar-item text-sm flex flex-row items-center">
 				<Languages class="w-5 h-5" />
 			</a>
 		</div>

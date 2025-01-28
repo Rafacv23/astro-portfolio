@@ -6,13 +6,14 @@ import Hero from '@components/en/Hero.astro'
 import Contact from '@components/en/Contact.astro'
 import Section from '@components/ui/Section.astro'
 import { getImportantProjects } from '@lib/api/en/projects'
+
 const importantProjects = getImportantProjects()
 ---
 
 <Layout title={SITE_NAME_EN} description={SITE_DESCRIPTION_EN} canonical=`${SITE_URL}/en`>
     <main>
         <Hero/>
-        <Section title='Projects' more>    
+        <Section title='Projects' more english>    
         <ul>
             {importantProjects.map((project) => (
                 <Card project={project}/>

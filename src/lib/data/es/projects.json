@@ -1,12 +1,10 @@
 {
   "projects": [
     {
-      "id": 2,
       "name": "F1 Connect API",
       "slug": "f1-connect-api",
       "languages": ["Next.js", "Typescript", "Playwright", "Turso", "Tailwind"],
       "year": 2024,
-      "madeAt": "Freelancer",
       "functionalities": [
         "Api construida con Nextjs",
         "Documentacion actualizada",
@@ -15,18 +13,15 @@
       ],
       "img": "/f1-connect-api-img.avif",
       "important": true,
-      "mobile": true,
       "description": "F1 Connect Api es una api gratuita y fácil de usar, que está preparada para el desarrollo. Su diseño moderno y eficiente permite multitud de solicitudes a la vez.",
       "live": "https://f1-connect-api.vercel.app/",
       "github": "https://github.com/Rafacv23/F1-api"
     },
     {
-      "id": 5,
       "name": "Ninja Path",
       "slug": "ninja-path",
       "languages": ["Astro", "Typescript", "React", "CSS", "Supabase"],
       "year": 2024,
-      "madeAt": "Freelancer",
       "functionalities": [
         "Facilidad de uso y rendimiento",
         "Backend independiente",
@@ -35,13 +30,11 @@
       ],
       "img": "/ninjapath-img.avif",
       "important": true,
-      "mobile": true,
       "description": "Ninja Path es un acortador de URLs creado con Astro y con una base de datos en Supabase. Puedes crear tus urls en un solo click.",
       "live": "https://ninjapath.vercel.app/",
       "github": "https://github.com/Rafacv23/ninjapath-free-url-shortener"
     },
     {
-      "id": "pokewordle",
       "name": "PokeWordle",
       "slug": "pokewordle",
       "languages": [
@@ -53,7 +46,6 @@
         "Zustand"
       ],
       "year": 2024,
-      "madeAt": "Freelancer",
       "functionalities": [
         "Estado global con Zustand",
         "Internacionalización y soporte para varios temas",
@@ -62,13 +54,11 @@
       ],
       "img": "/pokewordle-img.avif",
       "important": true,
-      "mobile": true,
       "description": "PokeWordle es un juego SPA en el que tienes 7 oportunidades para averiguar el Pokémon secreto.",
       "live": "https://pokemonwordle.vercel.app/",
       "github": "https://github.com/Rafacv23/pokewordle"
     },
     {
-      "id": "bookmendator",
       "name": "Bookmendator",
       "slug": "bookmendator",
       "languages": [
@@ -84,7 +74,6 @@
         "Kinde"
       ],
       "year": 2024,
-      "madeAt": "Freelancer",
       "functionalities": [
         "IA implementada y que funciona en local",
         "Sistema de comentarios y reviews de libros retroalimentado por usuarios",
@@ -94,13 +83,11 @@
       ],
       "img": "/bookmendator-img.avif",
       "important": true,
-      "mobile": true,
       "description": "Bookmendator es un aplicación que te recomienda libros en base a tus intereses y preferencias, mediante una IA personalizada.",
       "live": "https://bookmendator.vercel.app/",
       "github": "https://github.com/Rafacv23/bookmendator"
     },
     {
-      "id": "cinepass",
       "name": "CinePass",
       "slug": "cinepass",
       "languages": [
@@ -114,7 +101,6 @@
         "Kinde"
       ],
       "year": 2024,
-      "madeAt": "Freelancer",
       "functionalities": [
         "Sistema de reserva de entradas para cine",
         "Fetch de datos a una api propia",
@@ -123,13 +109,11 @@
       ],
       "img": "/cinepass-img.avif",
       "important": true,
-      "mobile": true,
       "description": "CinePass es un sistema de reserva de entradas de cine. Mediante autentificación y registro de usuarios.",
       "live": "https://cinepass-jade.vercel.app/",
       "github": "https://github.com/Rafacv23/cinema-ticketing"
     },
     {
-      "id": "redditly",
       "name": "Redditly",
       "slug": "redditly",
       "languages": [
@@ -142,7 +126,6 @@
         "daysiUi"
       ],
       "year": 2024,
-      "madeAt": "Freelancer",
       "functionalities": [
         "Fetch sin autentificación a la API de Reddit",
         "Estado global con Zustand",
@@ -150,18 +133,15 @@
       ],
       "img": "/redditly-img.avif",
       "important": true,
-      "mobile": true,
       "description": "Redditly es un cliente de reddit open-source capaz de manejar y almacenar tus posts y subreddits favoritos.",
       "live": "https://redditly.vercel.app/",
       "github": "https://github.com/Rafacv23/redditly"
     },
     {
-      "id": 1,
       "name": "Taberna Precursor",
       "slug": "taberna-precursor",
       "languages": ["Astro", "React", "CSS", "Tailwind"],
       "year": 2024,
-      "madeAt": "Freelancer",
       "functionalities": [
         "Página de noticias en español",
         "Optimizada para SEO",
@@ -170,18 +150,15 @@
       ],
       "img": "/taberna-precursor-img.avif",
       "important": false,
-      "mobile": true,
       "description": "Taberna Precursor es una web de noticias sobre videojuegos en español. Cuenta con las últimas tecnologías en desarrollo web lo que le otorga un gran rendimiento y escalabilidad.",
       "live": "https://taberna-precursor.vercel.app/",
       "github": "https://github.com/Rafacv23/news-app"
     },
     {
-      "id": 3,
       "name": "CopyPasteUi",
       "slug": "copy-paste-ui",
       "languages": ["React", "CSS", "Tailwind", "Starlight", "Storybook"],
       "year": 2024,
-      "madeAt": "Freelancer",
       "functionalities": [
         "Librería de componentes open source",
         "Fácil de usar y desplegar",
@@ -189,18 +166,15 @@
       ],
       "img": "/copy-paste-ui-img.avif",
       "important": true,
-      "mobile": true,
       "description": "CopyPasteUi es una librería de componentes reutilizables de código abierto hecha con TailwindCSS. Tiene su propia página de documentación disponible.",
       "live": "https://copy-paste-ui.vercel.app/",
       "github": "https://github.com/Rafacv23/copy-paste-ui"
     },
     {
-      "id": 4,
       "name": "Miaudle | Idle Game",
       "slug": "miaudle",
       "languages": ["React", "CSS"],
       "year": 2023,
-      "madeAt": "Freelancer",
       "functionalities": [
         "Guardado a través del Local Storage",
         "Mejoras y sistema de progresión",
@@ -208,19 +182,16 @@
       ],
       "img": "/miaudle-img.avif",
       "important": false,
-      "mobile": true,
       "description": "Miaudle es un juego incremental y clicker donde tienes que recolectar adorables gatos. Puedes usar estos gatos para comprar diferentes mejoras, lo que aumentará tu generación de gatos por segundo.",
       "live": "https://miaudle.vercel.app/",
       "github": "https://github.com/Rafacv23/idle-game"
     },
 
     {
-      "id": 6,
       "name": "Your Own CV",
       "slug": "your-own-cv",
       "languages": ["Astro", "Typescript", "React", "Tailwind"],
       "year": 2024,
-      "madeAt": "Freelancer",
       "functionalities": [
         "Guardado a través del Local Storage",
         "Alto rendimiento",
@@ -228,20 +199,16 @@
       ],
       "img": "/your-own-cv-img.avif",
       "important": true,
-      "mobile": true,
       "description": "Your Own CV te permite crear tu propio currículum en formate pdf en tan sólo unos minutos.",
       "live": "https://your-own-cv.vercel.app/",
       "github": "https://github.com/Rafacv23/your-own-cv"
     },
     {
-      "id": 7,
       "name": "Pomodoro",
       "slug": "pomodoro",
       "languages": ["React", "CSS"],
       "year": 2022,
-      "madeAt": "Freelancer",
       "important": false,
-      "mobile": true,
       "functionalities": [
         "Contadores de 25 minutos",
         "Posibilidad de cambiar entre modo claro y oscuro",
@@ -253,14 +220,11 @@
       "github": "https://github.com/Rafacv23/Projects/tree/main/06-pomodoro-react"
     },
     {
-      "id": 8,
       "name": "Reloj",
       "slug": "reloj",
       "languages": ["React", "CSS"],
       "year": 2022,
-      "madeAt": "Freelancer",
       "important": false,
-      "mobile": true,
       "functionalities": [
         "Reloj en tiempo real y basado en tu zona horaria",
         "Cronómetro con la función de parar y reiniciar",
@@ -272,14 +236,11 @@
       "github": "https://github.com/Rafacv23/timer-app"
     },
     {
-      "id": 9,
       "name": "Conversor de Divisas",
       "slug": "conversor-divisas",
       "languages": ["React", "CSS"],
       "year": 2023,
-      "madeAt": "Freelancer",
       "important": false,
-      "mobile": true,
       "functionalities": [
         "Datos reales y actualizados gracias a una API",
         "14 divisas diferentes",
@@ -291,14 +252,11 @@
       "github": "https://github.com/Rafacv23/currency-converter"
     },
     {
-      "id": 10,
       "name": "F1 App",
       "slug": "f1-app",
       "languages": ["React", "CSS"],
       "year": 2023,
-      "madeAt": "Freelancer",
       "important": false,
-      "mobile": true,
       "img": "/f1-app-img.avif",
       "functionalities": [
         "API Datos reales y actualizados en tiempo real",
@@ -311,14 +269,11 @@
       "github": "https://github.com/Rafacv23/f1-app"
     },
     {
-      "id": 11,
       "name": "Juego de preguntas",
       "slug": "quizz-game",
       "languages": ["React", "CSS", "Vite"],
       "year": 2022,
-      "madeAt": "Freelancer",
       "important": false,
-      "mobile": true,
       "live": "https://questions-game-iota.vercel.app/",
       "functionalities": [
         "Base de datos personal para alojar las preguntas",
@@ -331,14 +286,11 @@
       "github": "https://github.com/Rafacv23/questions-game"
     },
     {
-      "id": 12,
       "name": "Supermercado virtual",
       "slug": "supermercado-virtual",
       "languages": ["React", "CSS", "Supabase"],
       "year": 2022,
-      "madeAt": "Freelancer",
       "important": false,
-      "mobile": true,
       "functionalities": [
         "Base de datos alojada en Supabase con su propia API",
         "Motor de búsqueda integrado",

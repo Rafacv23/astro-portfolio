@@ -1,12 +1,10 @@
 {
   "projects": [
     {
-      "id": 2,
       "name": "F1 Connect API",
       "slug": "f1-connect-api",
       "languages": ["Next.js", "Typescript", "Playwright", "Turso", "Tailwind"],
       "year": 2024,
-      "madeAt": "Freelancer",
       "functionalities": [
         "Api built in Next.js",
         "Updated docs with the endpoints",
@@ -20,12 +18,10 @@
       "github": "https://github.com/Rafacv23/F1-api"
     },
     {
-      "id": 5,
       "name": "Ninja Path",
       "slug": "ninja-path",
       "languages": ["Astro", "Typescript", "React", "CSS", "Supabase"],
       "year": 2024,
-      "madeAt": "Freelancer",
       "functionalities": [
         "Easy to use, high performance",
         "Independent backend",
@@ -39,7 +35,6 @@
       "github": "https://github.com/Rafacv23/ninjapath-free-url-shortener"
     },
     {
-      "id": "pokewordle",
       "name": "PokeWordle",
       "slug": "pokewordle",
       "languages": [
@@ -51,7 +46,6 @@
         "Zustand"
       ],
       "year": 2024,
-      "madeAt": "Freelancer",
       "functionalities": [
         "Global state with Zustand",
         "Internationalization and various themes",
@@ -65,7 +59,6 @@
       "github": "https://github.com/Rafacv23/pokewordle"
     },
     {
-      "id": "bookmendator",
       "name": "Bookmendator",
       "slug": "bookmendator",
       "languages": [
@@ -81,7 +74,6 @@
         "Kinde"
       ],
       "year": 2024,
-      "madeAt": "Freelancer",
       "functionalities": [
         "AI implemented and working locally",
         "Book commenting and review system powered by user feedback",
@@ -96,7 +88,6 @@
       "github": "https://github.com/Rafacv23/bookmendator"
     },
     {
-      "id": "cinepass",
       "name": "CinePass",
       "slug": "cinepass",
       "languages": [
@@ -110,7 +101,6 @@
         "Kinde"
       ],
       "year": 2024,
-      "madeAt": "Freelancer",
       "functionalities": [
         "Cinema ticket booking system",
         "Data fetching from a custom API",
@@ -124,7 +114,6 @@
       "github": "https://github.com/Rafacv23/cinema-ticketing"
     },
     {
-      "id": "redditly",
       "name": "Redditly",
       "slug": "redditly",
       "languages": [
@@ -137,7 +126,6 @@
         "daysiUi"
       ],
       "year": 2024,
-      "madeAt": "Freelancer",
       "functionalities": [
         "Data fetching to the Reddit API without authentication",
         "Global state with Zustand",
@@ -150,12 +138,10 @@
       "github": "https://github.com/Rafacv23/redditly"
     },
     {
-      "id": 1,
       "name": "Taberna Precursor",
       "slug": "taberna-precursor",
       "languages": ["Astro", "React", "CSS", "Tailwind"],
       "year": 2024,
-      "madeAt": "Freelancer",
       "functionalities": [
         "News website in spanish",
         "SEO optimised",
@@ -169,12 +155,10 @@
       "github": "https://github.com/Rafacv23/news-app"
     },
     {
-      "id": 3,
       "name": "CopyPasteUi",
       "slug": "copy-paste-ui",
       "languages": ["React", "CSS", "Tailwind", "Starlight", "Storybook"],
       "year": 2024,
-      "madeAt": "Freelancer",
       "functionalities": [
         "Open source component library",
         "Easy to use and deploy",
@@ -187,12 +171,10 @@
       "github": "https://github.com/Rafacv23/copy-paste-ui"
     },
     {
-      "id": 4,
       "name": "Miaudle | Idle Game",
       "slug": "miaudle",
       "languages": ["React", "CSS"],
       "year": 2023,
-      "madeAt": "Freelancer",
       "functionalities": ["Local storage saves", "Upgrades", "Restart option"],
       "img": "/miaudle-img.avif",
       "important": false,
@@ -202,12 +184,10 @@
     },
 
     {
-      "id": 6,
       "name": "Your Own CV",
       "slug": "your-own-cv",
       "languages": ["Astro", "Typescript", "React", "Tailwind"],
       "year": 2024,
-      "madeAt": "Freelancer",
       "functionalities": [
         "Local storage saves",
         "High speed performance",
@@ -220,12 +200,10 @@
       "github": "https://github.com/Rafacv23/your-own-cv"
     },
     {
-      "id": 7,
       "name": "Pomodoro",
       "slug": "pomodoro",
       "languages": ["React", "CSS"],
       "year": 2022,
-      "madeAt": "Freelancer",
       "important": false,
       "functionalities": [
         "25 Minutes timers",
@@ -238,12 +216,10 @@
       "github": "https://github.com/Rafacv23/Projects/tree/main/06-pomodoro-react"
     },
     {
-      "id": 8,
       "name": "Timer",
       "slug": "timer",
       "languages": ["React", "CSS"],
       "year": 2022,
-      "madeAt": "Freelancer",
       "important": false,
       "functionalities": [
         "Real-time clock based on your location and time zone",
@@ -256,12 +232,10 @@
       "github": "https://github.com/Rafacv23/timer-app"
     },
     {
-      "id": 9,
       "name": "Currency Converter",
       "slug": "currency-converter",
       "languages": ["React", "CSS"],
       "year": 2023,
-      "madeAt": "Freelancer",
       "important": false,
       "functionalities": [
         "Real-time data based on an external API",
@@ -274,12 +248,10 @@
       "github": "https://github.com/Rafacv23/currency-converter"
     },
     {
-      "id": 10,
       "name": "F1 App",
       "slug": "f1-app",
       "languages": ["React", "CSS"],
       "year": 2023,
-      "madeAt": "Freelancer",
       "important": false,
       "img": "/f1-app-img.avif",
       "functionalities": [
@@ -293,12 +265,10 @@
       "github": "https://github.com/Rafacv23/f1-app"
     },
     {
-      "id": 11,
       "name": "Quiz Game",
       "slug": "quizz-game",
       "languages": ["React", "CSS", "Vite"],
       "year": 2022,
-      "madeAt": "Freelancer",
       "important": false,
       "live": "https://questions-game-iota.vercel.app/",
       "functionalities": [
@@ -312,12 +282,10 @@
       "github": "https://github.com/Rafacv23/questions-game"
     },
     {
-      "id": 12,
       "name": "Supermarket Service",
       "slug": "supermarket-service",
       "languages": ["React", "CSS", "Supabase"],
       "year": 2022,
-      "madeAt": "Freelancer",
       "important": false,
       "functionalities": [
         "Database that is based on Supabase and has a personal API.",

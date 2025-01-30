@@ -165,7 +165,7 @@
         "Landing page with documentation"
       ],
       "img": "/copy-paste-ui-img.avif",
-      "important": true,
+      "important": false,
       "description": "CopyPasteUi is an open source reusable component library made with TailwindCSS. It's has their own documentation page.",
       "live": "https://copy-paste-ui.vercel.app/",
       "github": "https://github.com/Rafacv23/copy-paste-ui"

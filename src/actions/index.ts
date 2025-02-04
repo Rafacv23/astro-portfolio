@@ -6,12 +6,24 @@ const resend = new Resend(import.meta.env.RESEND_API_KEY)
 export const server = {
   send: defineAction({
     accept: "form",
-    handler: async () => {
+    handler: async (formData) => {
+      // Extraer datos del formulario
+      const email = formData.get("email") as string
+      const subject = formData.get("subject") as string
+      const message = formData.get("message") as string
+
+      if (!email || !subject || !message) {
+        throw new ActionError({
+          code: "BAD_REQUEST",
+          message: "Todos los campos son requeridos.",
+        })
+      }
+
       const { data, error } = await resend.emails.send({
         from: "Rafa Canosa <noreply@rafacanosa.dev>",
-        to: ["delivered@resend.dev"],
-        subject: "Hello world",
-        html: "<strong>It works!</strong>",
+        to: [email], // Envía el correo a la dirección proporcionada
+        subject,
+        html: `<p>${message}</p>`,
       })
 
       if (error) {
@@ -20,8 +32,6 @@ export const server = {
           message: error.message,
         })
       }
-
-      console.log(data)
 
       return data
     },

@@ -1,0 +1,18 @@
+---
+import Layout from "@layouts/es/Layout.astro"
+import { SITE_DESCRIPTION_ES } from "@lib/constants"
+
+export const prerender = false // ssr
+---
+
+<Layout title="Contacto | Rafa Canosa Portfolio" description={SITE_DESCRIPTION_ES}>
+    <main>
+     <h1>Contacto</h1>
+     <form action="/api/send" method="POST">
+        <label>Subject: <input type="text" name="subject" required /></label>
+        <label>Email: <input type="email" name="email" required /></label>
+        <label>Mensaje: <textarea name="message" required></textarea></label>
+        <button type="submit">Enviar</button>
+      </form>
+    </main>
+</Layout>

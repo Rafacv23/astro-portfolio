@@ -4,6 +4,8 @@ import sitemap from "@astrojs/sitemap"
 import { SITE_URL } from "./src/lib/constants"
 import partytown from "@astrojs/partytown"
 
+import vercel from "@astrojs/vercel";
+
 export default defineConfig({
   integrations: [
     tailwind(),
@@ -14,10 +16,14 @@ export default defineConfig({
       },
     }),
   ],
+
   site: SITE_URL,
   output: "static",
+
   i18n: {
     defaultLocale: "es",
     locales: ["es", "en"],
   },
+
+  adapter: vercel(),
 })

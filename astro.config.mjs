@@ -4,7 +4,6 @@ import sitemap from "@astrojs/sitemap"
 import { SITE_URL } from "./src/lib/constants"
 import partytown from "@astrojs/partytown"
 
-// https://astro.build/config
 export default defineConfig({
   integrations: [
     tailwind(),

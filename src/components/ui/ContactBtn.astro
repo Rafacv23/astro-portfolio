@@ -3,12 +3,13 @@ interface Props {
     logo: any
     title: string
     link: string
+    target: string
 }
 
-const {logo: Logo, title, link} = Astro.props
+const {logo: Logo, title, link, target} = Astro.props
 ---
 
-<a title={title} href={link} target="_blank" rel="noreferrer" class="relative group/btn flex space-x-2 items-center justify-start px-4 w-full text-primary rounded-md h-10 font-medium shadow-input bg-gray-50 dark:bg-card dark:shadow-[0px_0px_1px_1px_var(--neutral-800)]" type="submit">
+<a title={title} href={link} target={target} rel="noreferrer" class="relative group/btn flex space-x-2 items-center justify-start px-4 w-full text-primary rounded-md h-10 font-medium shadow-input bg-gray-50 dark:bg-card dark:shadow-[0px_0px_1px_1px_var(--neutral-800)]" type="submit">
     <Logo class="h-4 w-4" />
     <span class="text-primary text-sm">
         {title}

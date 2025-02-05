@@ -6,21 +6,25 @@ const contactBtns = [
     {
         logo: Github,
         title: "GitHub",
+        target: "_blank",
         link: "https://github.com/Rafacv23"
     },
     {
         logo: Linkedin,
         title: "Linkedin",
+        target: "_blank",
         link: "https://www.linkedin.com/in/rafa-canosa-vallejo-6328a5194/"
     },
     {
         logo: Coffee,
         title: "Invítame a un café",
+        target: "_blank",
         link: "https://ko-fi.com/rafacanosa"
     },
     {
         logo: Contact2,
         title: "Envíame un correo",
+        target: "_self",
         link: "/contact"
     }
 ]
@@ -29,7 +33,7 @@ const contactBtns = [
     <ul class="flex flex-col gap-4">
             {contactBtns.map((btn) => (
               <li id={btn.title}>
-                <ContactBtn logo={btn.logo} title={btn.title} link={btn.link}/>
+                <ContactBtn logo={btn.logo} title={btn.title} link={btn.link} target={btn.target}/>
               </li>
             ))}
 <li>

@@ -9,11 +9,37 @@ export const prerender = false // ssr
 <Layout title="Contacto | Rafa Canosa Portfolio" description={SITE_DESCRIPTION_ES}>
     <main>
      <h1>Contacto</h1>
-     <form action={actions.send} method="POST">
-        <label>Subject: <input type="text" name="subject" required /></label>
-        <label>Email: <input type="email" name="email" required /></label>
-        <label>Mensaje: <textarea name="message" required></textarea></label>
-        <button type="submit">Enviar</button>
-      </form>
+     <section class="bg-gray-2 rounded-xl">
+      <div class="p-8 shadow-lg">
+        <form class="space-y-4" action={actions.send} method="POST">
+          <div class="w-full">
+            <label class="sr-only" for="name">Name</label>
+            <input class="input input-solid max-w-full" placeholder="Name" type="text" id="name" />
+          </div>
+    
+          <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
+            <div>
+              <label class="sr-only" for="email">Email</label>
+              <input class="input input-solid" placeholder="Email address" type="email" id="email" />
+            </div>
+    
+            <div>
+              <label class="sr-only" for="phone">Phone</label>
+              <input class="input input-solid" placeholder="Phone Number" type="tel" id="phone" />
+            </div>
+          </div>
+    
+          <div class="w-full">
+            <label class="sr-only" for="message">Message</label>
+    
+            <textarea class="textarea textarea-solid max-w-full" placeholder="Message" rows="8" id="message"></textarea>
+          </div>
+    
+          <div class="mt-4">
+            <button type="button" class="rounded-lg btn btn-primary btn-block">Send Enquiry</button>
+          </div>
+        </form>
+      </div>
+    </section>
     </main>
 </Layout>

@@ -156,7 +156,7 @@
         "Tauri",
         "Rust"
       ],
-      "year": 2025,
+      "year": 2024,
       "functionalities": [
         "Fetch sin autentificación a la API de Reddit",
         "Estado global con Zustand",
@@ -172,7 +172,7 @@
       "name": "Live F1 Api",
       "slug": "live-f1-api",
       "languages": ["Astro", "Tailwind", "Typescript", "F1 API"],
-      "year": 2025,
+      "year": 2024,
       "functionalities": [
         "Fetch sin autentificación a la API de Reddit",
         "Estado global con Zustand",

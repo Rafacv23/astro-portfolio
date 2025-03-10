@@ -14,7 +14,7 @@
       "img": "/f1-connect-api-img.avif",
       "important": true,
       "description": "F1 Connect Api es una api gratuita y fácil de usar, que está preparada para el desarrollo. Su diseño moderno y eficiente permite multitud de solicitudes a la vez.",
-      "live": "https://f1-connect-api.vercel.app/",
+      "live": "https://f1api.dev",
       "github": "https://github.com/Rafacv23/F1-api"
     },
     {
@@ -136,6 +136,46 @@
       "description": "Redditly es un cliente de reddit open-source capaz de manejar y almacenar tus posts y subreddits favoritos.",
       "live": "https://redditly.vercel.app/",
       "github": "https://github.com/Rafacv23/redditly"
+    },
+    {
+      "name": "Digger Browser",
+      "slug": "digger-browser",
+      "languages": [
+        "Next.js",
+        "React",
+        "Typescript",
+        "Puppeteer",
+        "Gemini AI",
+        "Tauri",
+        "Rust"
+      ],
+      "year": 2025,
+      "functionalities": [
+        "Fetch sin autentificación a la API de Reddit",
+        "Estado global con Zustand",
+        "Capacidad de guardar post y subreddits"
+      ],
+      "img": "/digger-browser.avif",
+      "important": true,
+      "description": "Digger browser es un buscador que analiza los principales resultados de los motores de búsqueda y te los resume con la ayuda de la IA. También está disponible en versión de escritorio para MacOS y Windows.",
+      "live": "https://digger-browser.vercel.app/",
+      "github": "https://github.com/Rafacv23/digger-browser"
+    },
+    {
+      "name": "Live F1 Api",
+      "slug": "live-f1-api",
+      "languages": ["Astro", "Tailwind", "Typescript", "F1 API"],
+      "year": 2025,
+      "functionalities": [
+        "Fetch sin autentificación a la API de Reddit",
+        "Estado global con Zustand",
+        "Capacidad de guardar post y subreddits"
+      ],
+      "img": "/f1-api-live.avif",
+      "important": true,
+      "description": "Página que muestra los resultados de la API de F1 en tiempo real con una interfaz de usuario moderna.",
+      "live": "https://live.f1api.dev",
+      "github": "https://github.com/Rafacv23/f1api-live"
     },
     {
       "name": "Taberna Precursor",

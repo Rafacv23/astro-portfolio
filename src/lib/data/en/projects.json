@@ -14,7 +14,7 @@
       "img": "/f1-connect-api-img.avif",
       "important": true,
       "description": "F1 Connect Api is a free, easy-to-use api that is ready for development. Its modern and efficient design allows for a multitude of applications at once.",
-      "live": "https://f1-connect-api.vercel.app/",
+      "live": "https://f1api.dev",
       "github": "https://github.com/Rafacv23/F1-api"
     },
     {
@@ -136,6 +136,46 @@
       "description": "Redditly it's a open-source reddit client to manage your favorite posts and subreddits.",
       "live": "https://redditly.vercel.app/",
       "github": "https://github.com/Rafacv23/redditly"
+    },
+    {
+      "name": "Digger Browser",
+      "slug": "digger-browser",
+      "languages": [
+        "Next.js",
+        "React",
+        "Typescript",
+        "Puppeteer",
+        "Gemini AI",
+        "Tauri",
+        "Rust"
+      ],
+      "year": 2025,
+      "functionalities": [
+        "Fetch sin autentificación a la API de Reddit",
+        "Estado global con Zustand",
+        "Capacidad de guardar post y subreddits"
+      ],
+      "img": "/digger-browser.avif",
+      "important": true,
+      "description": "Digger browser is a search engine that analyzes the main results of search engines and summarizes them with the help of AI. Also available in desktop version for MacOS and Windows.",
+      "live": "https://digger-browser.vercel.app/",
+      "github": "https://github.com/Rafacv23/digger-browser"
+    },
+    {
+      "name": "Live F1 Api",
+      "slug": "live-f1-api",
+      "languages": ["Astro", "Tailwind", "Typescript", "F1 API"],
+      "year": 2025,
+      "functionalities": [
+        "Fetch sin autentificación a la API de Reddit",
+        "Estado global con Zustand",
+        "Capacidad de guardar post y subreddits"
+      ],
+      "img": "/f1-api-live.avif",
+      "important": true,
+      "description": "Page showing F1 API results in real time with a modern user interface.",
+      "live": "https://live.f1api.dev",
+      "github": "https://github.com/Rafacv23/f1api-live"
     },
     {
       "name": "Taberna Precursor",

@@ -1,9 +1,16 @@
 {
   "projects": [
     {
-      "name": "F1 Connect API",
+      "name": "F1 API Dev",
       "slug": "f1-connect-api",
-      "languages": ["Next.js", "Typescript", "Playwright", "Turso", "Tailwind"],
+      "languages": [
+        "Next.js",
+        "Typescript",
+        "Playwright",
+        "Turso",
+        "Tailwind",
+        "Drizzle"
+      ],
       "year": 2024,
       "functionalities": [
         "Api built in Next.js",
@@ -13,7 +20,7 @@
       ],
       "img": "/f1-connect-api-img.avif",
       "important": true,
-      "description": "F1 Connect Api is a free, easy-to-use api that is ready for development. Its modern and efficient design allows for a multitude of applications at once.",
+      "description": "F1 API Dev a free, easy-to-use api that is ready for development. Its modern and efficient design allows for a multitude of applications at once. It also has an official sdk available via NPM.",
       "live": "https://f1api.dev",
       "github": "https://github.com/Rafacv23/F1-api"
     },

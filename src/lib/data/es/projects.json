@@ -95,6 +95,35 @@
       "github": "https://github.com/Rafacv23/bookmendator"
     },
     {
+      "name": "Supermarket Management",
+      "slug": "supermarket-management",
+      "languages": [
+        "Next.js",
+        "React",
+        "Typescript",
+        "CSS",
+        "Tailwind",
+        "Prisma",
+        "Neon",
+        "Zustand",
+        "PWA",
+        "Zod",
+        "Jose"
+      ],
+      "year": 2024,
+      "functionalities": [
+        "Gestión de pedidos para supermercados",
+        "Base de datos propia",
+        "Login exclusivo para empleados",
+        "PWA"
+      ],
+      "img": "/supermarket-management-img.avif",
+      "important": true,
+      "description": "Supermarket Management es una aplicación web que permite gestionar los pedidos de un supermercado. Tiene un login exclusivo para empleados y una base de datos propia. Y disponibilidad multiplataforma gracias a su tecnología PWA.",
+      "live": "https://supermarket-management-woad.vercel.app/",
+      "github": "https://github.com/Rafacv23/supermarket-management"
+    },
+    {
       "name": "CinePass",
       "slug": "cinepass",
       "languages": [

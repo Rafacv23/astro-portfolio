@@ -95,6 +95,31 @@
       "github": "https://github.com/Rafacv23/bookmendator"
     },
     {
+      "name": "Top Spin 2K World Tour",
+      "slug": "top-spin-2k-world-tour",
+      "languages": [
+        "Next.js",
+        "Typescript",
+        "React",
+        "CSS",
+        "Supabase",
+        "Tailwind",
+        "Shadcn"
+      ],
+      "year": 2024,
+      "functionalities": [
+        "Facilidad de uso y rendimiento",
+        "Backend independiente",
+        "Personalizar las URLs que creas",
+        "Estilos con Pico CSS"
+      ],
+      "img": "/topspin-img.webp",
+      "important": true,
+      "description": "Aplicación completa para gestionar torneos de tenis y clasificaciones, desarrollada con tecnologías modernas.  Permite llevar un registro de jugadores, ver torneos, consultar resultados de partidos por ronda y set, y sincronizar eventos con tu calendario.",
+      "live": "https://topspin2kworldtour.vercel.app/",
+      "github": "https://github.com/Rafacv23/top-spin-2k-world-tour"
+    },
+    {
       "name": "Supermarket Management",
       "slug": "supermarket-management",
       "languages": [
